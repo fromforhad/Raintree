@@ -1,8 +1,8 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 COPY . .
-RUN dotnet restore Raintree.csproj
-RUN dotnet publish -c Release -o out Raintree.csproj
+RUN dotnet restore Raintree/Raintree.csproj
+RUN dotnet publish -c Release -o out Raintree/Raintree.csproj
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
