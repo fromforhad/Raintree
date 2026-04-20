@@ -1,0 +1,8646 @@
+[
+  {
+    "Day": "Monday",
+    "Batch": "66-A",
+    "Time": "8:45",
+    "Subject": "CSE0613102",
+    "Title": "Structured Programming Language Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "DMO"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-A",
+    "Time": "10:05",
+    "Subject": "CSE0613102",
+    "Title": "Structured Programming Language Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "DMO"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-A",
+    "Time": "1:15",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": null,
+    "Faculty": "MMU"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-A",
+    "Time": "2:35",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": null,
+    "Faculty": "MMU"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-A",
+    "Time": "10:05",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": "3030 (308)",
+    "Faculty": "MMU"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-A",
+    "Time": "11:25",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": "3030 (308)",
+    "Faculty": "MMU"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-A",
+    "Time": "1:15",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": null,
+    "Faculty": "MBH"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-A",
+    "Time": "2:35",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "3030 (308)",
+    "Faculty": "DMO"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-A",
+    "Time": "1:15",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "DMO"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-A",
+    "Time": "2:35",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "5230 (516)",
+    "Faculty": "MBH"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-B",
+    "Time": "10:05",
+    "Subject": "CSE0613102",
+    "Title": "Structured Programming Language Lab",
+    "Room": null,
+    "Faculty": "SAK"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-B",
+    "Time": "11:25",
+    "Subject": "CSE0613102",
+    "Title": "Structured Programming Language Lab",
+    "Room": null,
+    "Faculty": "SAK"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-B",
+    "Time": "1:15",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": null,
+    "Faculty": "RIR"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-B",
+    "Time": "2:35",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": null,
+    "Faculty": "RIR"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-B",
+    "Time": "3:55",
+    "Subject": null, 
+    "Title": null, 
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-B",
+    "Time": "8:45",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "Lab 6180 (613)",
+    "Faculty": "SAK"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-B",
+    "Time": "11:25",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "5060 (503)",
+    "Faculty": "AMU"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-B",
+    "Time": "1:15",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "5190 (512)",
+    "Faculty": "RIR"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-B",
+    "Time": "10:05",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "6220 (Old 621) Eng Dept",
+    "Faculty": "RIR"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-B",
+    "Time": "11:25",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "5080 (501)",
+    "Faculty": "AMU"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-B",
+    "Time": "1:15",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "SAK"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-C",
+    "Time": "10:05",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "5030 (508)",
+    "Faculty": "NN"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-C",
+    "Time": "1:15",
+    "Subject": "CSE0613102",
+    "Title": "Structured Programming Language Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "MAK"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-C",
+    "Time": "2:35",
+    "Subject": "CSE0613102",
+    "Title": "Structured Programming Language Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "MAK"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-C",
+    "Time": "2:35",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "5030 (508)",
+    "Faculty": "NN"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-C",
+    "Time": "2:35",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "RIR"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-C",
+    "Time": "3:55",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "RIR"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },  
+  {
+    "Day": "Wednesday",
+    "Batch": "66-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-C",
+    "Time": "10:05",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "3170 (312)",
+    "Faculty": "RIR"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-C",
+    "Time": "11:25",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "3170 (312)",
+    "Faculty": "RIR"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-C",
+    "Time": "1:15",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "5230 (516)",
+    "Faculty": "MAK"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-C",
+    "Time": "2:25",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "MAK"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-D",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-D",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-D",
+    "Time": "1:15",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "5030 (508)",
+    "Faculty": "MJ"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-D",
+    "Time": "2:35",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "ASS"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "66-D",
+    "Time": "3:55",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "ASS"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-D",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-D",
+    "Time": "10:05",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "3170 (312)",
+    "Faculty": "SAK"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-D",
+    "Time": "11:25",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "Lab 4150 (411)",
+    "Faculty": "SAK"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-D",
+    "Time": "1:15",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "3030 (308)",
+    "Faculty": "MJ"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-D",
+    "Time": "2:35",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "5230 (516)",
+    "Faculty": "ASS"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "66-D",
+    "Time": "3:55",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "5230 (516)",
+    "Faculty": "ASS"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-D",
+    "Time": "8:45",
+    "Subject": "CSE0613102",
+    "Title": "Structured Programming Language Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "SAK"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-D",
+    "Time": "10:05",
+    "Subject": "CSE0613102",
+    "Title": "Structured Programming Language Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "SAK"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-D",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "66-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-D",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-D",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-D",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "66-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-A",
+    "Time": "8:45",
+    "Subject": "ECO0311101",
+    "Title": "Engineering Economics",
+    "Room": "5070 (502)",
+    "Faculty": "TDL"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-A",
+    "Time": "10:05",
+    "Subject": "GED0222101",
+    "Title": "Bangladesh Studies: History and Cultures",
+    "Room": "A004",
+    "Faculty": "MRN"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-A",
+    "Time": "1:15",
+    "Subject": "PHY0533101",
+    "Title": "Physics",
+    "Room": "3170 (312)",
+    "Faculty": "JHB"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-A",
+    "Time": "2:35",
+    "Subject": "CSE0611201",
+    "Title": "Computer Architecture",
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "SIS"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "65-A",
+    "Time": "8:45",
+    "Subject": "CSE0611201",
+    "Title": "Computer Architecture",
+    "Room": "5020 (507)",
+    "Faculty": "SIS"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "65-A",
+    "Time": "10:05",
+    "Subject": "ECO0311101",
+    "Title": "Engineering Economics",
+    "Room": "3030 (308)",
+    "Faculty": "TDL"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "65-A",
+    "Time": "11:25",
+    "Subject": "PHY0533101",
+    "Title": "Physics",
+    "Room": "6010 (606)",
+    "Faculty": "JHB"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "65-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "65-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "65-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-A",
+    "Time": "10:05",
+    "Subject": "GED0222101",
+    "Title": "Bangladesh Studies: History and Cultures",
+    "Room": "A004",
+    "Faculty": "MRN"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-A",
+    "Time": "11:25",
+    "Subject": "PHY0533102",
+    "Title": "Physics Lab",
+    "Room": "Phy Lab 6080 (601)",
+    "Faculty": "JHB"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-A",
+    "Time": "1:15",
+    "Subject": "PHY0533102",
+    "Title": "Physics Lab",
+    "Room": "Phy Lab 6080 (601)",
+    "Faculty": "JHB"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-B",
+    "Time": "8:45",
+    "Subject": "ECO0311101",
+    "Title": "Engineering Economics",
+    "Room": "3170 (312)",
+    "Faculty": "WHA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-B",
+    "Time": "10:05",
+    "Subject": "GED0222101",
+    "Title": "Bangladesh Studies: History and Cultures",
+    "Room": "A004",
+    "Faculty": "MRN"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-B",
+    "Time": "11:25",
+    "Subject": "CSE0611201",
+    "Title": "Computer Architecture",
+    "Room": "6010 (606)",
+    "Faculty": "SIS"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-B",
+    "Time": "8:45",
+    "Subject": "PHY0533101",
+    "Title": "Physics",
+    "Room": "5030 (508)",
+    "Faculty": "JHB"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-B",
+    "Time": "10:05",
+    "Subject": "GED0222101",
+    "Title": "Bangladesh Studies: History and Cultures",
+    "Room": "A004",
+    "Faculty": "MRN"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-B",
+    "Time": "11:25",
+    "Subject": "ECO0311101",
+    "Title": "Engineering Economics",
+    "Room": "3170 (312)",
+    "Faculty": "WHA"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-B",
+    "Time": "8:45",
+    "Subject": "PHY0533101",
+    "Title": "Physics",
+    "Room": "3170 (312)",
+    "Faculty": "JHB"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-B",
+    "Time": "11:25",
+    "Subject": "CSE0611201",
+    "Title": "Computer Architecture",
+    "Room": "5020 (507)",
+    "Faculty": "SIS"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-B",
+    "Time": "1:15",
+    "Subject": "PHY0533102",
+    "Title": "Physics Lab",
+    "Room": "Phy Lab 6080 (601)",
+    "Faculty": "JHB"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-B",
+    "Time": "2:35",
+    "Subject": "PHY0533102",
+    "Title": "Physics Lab",
+    "Room": "Phy Lab 6080 (601)",
+    "Faculty": "JHB"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-C",
+    "Time": "8:45",
+    "Subject": "CSE0611201",
+    "Title": "Computer Architecture",
+    "Room": "5060 (503)",
+    "Faculty": "STK"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-C",
+    "Time": "10:05",
+    "Subject": "PHY0533101",
+    "Title": "Physics",
+    "Room": "6010 (606)",
+    "Faculty": "MTA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-C",
+    "Time": "11:25",
+    "Subject": "ECO0311101",
+    "Title": "Engineering Economics",
+    "Room": "3170 (312)",
+    "Faculty": "WHA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-C",
+    "Time": "1:15",
+    "Subject": "GED0222101",
+    "Title": "Bangladesh Studies: History and Cultures",
+    "Room": "A004",
+    "Faculty": "MRN"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "65-C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "65-C",
+    "Time": "10:05",
+    "Subject": "CSE0611201",
+    "Title": "Computer Architecture",
+    "Room": "6020 (607)",
+    "Faculty": "STK"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "65-C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "65-C",
+    "Time": "1:15",
+    "Subject": "PHY0533102",
+    "Title": "Physics Lab",
+    "Room": "Phy Lab 6080 (601)",
+    "Faculty": "MTA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "65-C",
+    "Time": "2:35",
+    "Subject": "PHY0533102",
+    "Title": "Physics Lab",
+    "Room": "Phy Lab 6080 (601)",
+    "Faculty": "MTA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "65-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-C",
+    "Time": "8:45",
+    "Subject": "ECO0311101",
+    "Title": "Engineering Economics",
+    "Room": "3170 (312)",
+    "Faculty": "WHA"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-C",
+    "Time": "10:05",
+    "Subject": "PHY0533101",
+    "Title": "Physics",
+    "Room": "6010 (606)",
+    "Faculty": "MTA"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-C",
+    "Time": "11:25",
+    "Subject": "GED0222101",
+    "Title": "Bangladesh Studies: History and Cultures",
+    "Room": "A004",
+    "Faculty": "MRN"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-D",
+    "Time": "8:45",
+    "Subject": "GED0222101",
+    "Title": "Bangladesh Studies: History and Cultures",
+    "Room": "A004",
+    "Faculty": "MRN"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-D",
+    "Time": "10:05",
+    "Subject": "ECO0311101",
+    "Title": "Engineering Economics",
+    "Room": "3170 (312)",
+    "Faculty": "WHA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-D",
+    "Time": "11:25",
+    "Subject": "PHY0533102",
+    "Title": "Physics Lab",
+    "Room": "Phy Lab 6080 (601)",
+    "Faculty": "MMB"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-D",
+    "Time": "1:15",
+    "Subject": "PHY0533102",
+    "Title": "Physics Lab",
+    "Room": "Phy Lab 6080 (601)",
+    "Faculty": "MMB"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "65-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "65-D",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "65-D",
+    "Time": "10:05",
+    "Subject": "GED0222101",
+    "Title": "Bangladesh Studies: History and Cultures",
+    "Room": "2100",
+    "Faculty": "MRN"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "65-D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "65-D",
+    "Time": "1:15",
+    "Subject": "CSE0611201",
+    "Title": "Computer Architecture",
+    "Room": "5060 (503)",
+    "Faculty": "SIS"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "65-D",
+    "Time": "2:35",
+    "Subject": "PHY0533101",
+    "Title": "Physics",
+    "Room": "3170 (312)",
+    "Faculty": "MMB"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday", 
+    "Batch": "65-D",
+    "Time": "8:45",
+    "Subject": "PHY0533101",
+    "Title": "Physics",
+    "Room": "Phy Lab 6080 (601)",
+    "Faculty": "MMB"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-D",
+    "Time": "10:05",
+    "Subject": "ECO0311101",
+    "Title": "Engineering Economics",
+    "Room": "3170 (312)",
+    "Faculty": "WHA"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-D",
+    "Time": "11:25",
+    "Subject": "CSE0611201",
+    "Title": "Computer Architecture",
+    "Room": "3030 (308)",
+    "Faculty": "SIS"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-D",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "65-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-D",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-D",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-D",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "65-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-A",
+    "Time": "8:45",
+    "Subject": "EEE0713102",
+    "Title": "Electrical Engineering Lab",
+    "Room": "Electric Lab 3210 (316)",
+    "Faculty": "ABS"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-A",
+    "Time": "10:05",
+    "Subject": "EEE0713102",
+    "Title": "Electrical Engineering Lab",
+    "Room": "Electric Lab 3210 (316)",
+    "Faculty": "ABS"
+  },
+
+  {
+    "Day": "Monday",
+    "Batch": "64-A",
+    "Time": "11:25",
+    "Subject": "EEE0713101",
+    "Title": "Electrical Engineering",
+    "Room": "5070 (502)",
+    "Faculty": "DMGR"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-A",
+    "Time": "1:15",
+    "Subject": "CSE0613103",
+    "Title": "Data Structure and Algorithms",
+    "Room": null,
+    "Faculty": "MTR"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-A",
+    "Time": "2:35",
+    "Subject": "GED0223101",
+    "Title": "Professional Ethics and Environmental Protection",
+    "Room": "2100",
+    "Faculty": "AWK"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-A",
+    "Time": "3:55",
+    "Subject": "CSE0613104",
+    "Title": "Data Structure and Algorithms Lab",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "MTR"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-A",
+    "Time": "10:05",
+    "Subject": "CSE0613103",
+    "Title": "Data Structure and Algorithms",
+    "Room": null,
+    "Faculty": "MTR"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-A",
+    "Time": "11:25",
+    "Subject": "MAT0541102",
+    "Title": "Linear Algebra",
+    "Room": null,
+    "Faculty": "MBH"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-A",
+    "Time": "2:35",
+    "Subject": "CSE0613104",
+    "Title": "Data Structure and Algorithms Lab",
+    "Room": null,
+    "Faculty": "MTR"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-A",
+    "Time": "8:45",
+    "Subject": "GED0223101",
+    "Title": "Professional Ethics and Environmental Protection",
+    "Room": "2100",
+    "Faculty": "AWK"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-A",
+    "Time": "11:25",
+    "Subject": "EEE0713101",
+    "Title": "Electrical Engineering",
+    "Room": "5070 (502)",
+    "Faculty": "DMGR"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-A",
+    "Time": "1:15",
+    "Subject": "MAT0541102",
+    "Title": "Linear Algebra",
+    "Room": "5030 (508)",
+    "Faculty": "MBH"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-B",
+    "Time": "8:45",
+    "Subject": "GED0223101",
+    "Title": "Professional Ethics and Environmental Protection",
+    "Room": "2100",
+    "Faculty": "AWK"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-B",
+    "Time": "10:05",
+    "Subject": "EEE0713101",
+    "Title": "Electrical Engineering",
+    "Room": "5070 (502)",
+    "Faculty": "DMGR"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-B",
+    "Time": "11:25",
+    "Subject": "EEE0713102",
+    "Title": "Electrical Engineering Lab",
+    "Room": "Electric Lab 3210 (316)",
+    "Faculty": "ABS"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-B",
+    "Time": "1:15",
+    "Subject": "EEE0713102",
+    "Title": "Electrical Engineering Lab",
+    "Room": "Electric Lab 3210 (316)",
+    "Faculty": "ABS"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-B",
+    "Time": "2:35",
+    "Subject": "GED0223101",
+    "Title": "Professional Ethics and Environmental Protection",
+    "Room": "2100",
+    "Faculty": "AWK"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-B",
+    "Time": "10:05",
+    "Subject": "GED0223101",
+    "Title": "Professional Ethics and Environmental Protection",
+    "Room": "5080 (501)",
+    "Faculty": "AWK"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-B",
+    "Time": "11:25",
+    "Subject": "CSE0613103",
+    "Title": "Data Structure and Algorithms",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "MTR"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-B",
+    "Time": "1:15",
+    "Subject": "CSE0613103",
+    "Title": "Data Structure and Algorithms",
+    "Room": "5080 (501)",
+    "Faculty": "MTR"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-B",
+    "Time": "2:35",
+    "Subject": "MAT0541102",
+    "Title": "Linear Algebra",
+    "Room": "5080 (501)",
+    "Faculty": "AMU"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-B",
+    "Time": "3:55",
+    "Subject": "MAT0541102",
+    "Title": "Linear Algebra",
+    "Room": "5080 (501)",
+    "Faculty": "AMU"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-B",
+    "Time": "8:45",
+    "Subject": "GED0223101",
+    "Title": "Professional Ethics and Environmental Protection",
+    "Room": "2100",
+    "Faculty": "AWK"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-B",
+    "Time": "10:05",
+    "Subject": "EEE0713101",
+    "Title": "Electrical Engineering",
+    "Room": "5070 (502)",
+    "Faculty": "DMGR"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-B",
+    "Time": "11:25",
+    "Subject": "CSE0613104",
+    "Title": "Data Structure and Algorithms Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "MTR"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-B",
+    "Time": "1:15",
+    "Subject": "CSE0613104",
+    "Title": "Data Structure and Algorithms Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "MTR"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-C",
+    "Time": "8:45",
+    "Subject": "GED0223101",
+    "Title": "Professional Ethics and Environmental Protection",
+    "Room": "2100",
+    "Faculty": "AWK"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-C",
+    "Time": "10:05",
+    "Subject": "EEE0713101",
+    "Title": "Electrical Engineering",
+    "Room": "3030 (308)",
+    "Faculty": "SU"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-C",
+    "Time": "11:25",
+    "Subject": "EEE0713101",
+    "Title": "Electrical Engineering",
+    "Room": "3030 (308)",
+    "Faculty": "SU"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-C",
+    "Time": "10:05",
+    "Subject": "GED0223101",
+    "Title": "Professional Ethics and Environmental Protection",
+    "Room": "5080 (501)",
+    "Faculty": "AWK"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-C",
+    "Time": "11:25",
+    "Subject": "CSE0613104",
+    "Title": "Data Structure and Algorithms Lab",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "MII"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-C",
+    "Time": "1:15",
+    "Subject": "CSE0613104",
+    "Title": "Data Structure and Algorithms Lab",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "MII"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-C",
+    "Time": "2:35",
+    "Subject": "CSE0613103",
+    "Title": "Data Structure and Algorithms",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "MII"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-C",
+    "Time": "8:45",
+    "Subject": "EEE0713102",
+    "Title": "Electrical Engineering Lab",
+    "Room": "Electric Lab 3210 (316)",
+    "Faculty": "SU"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-C",
+    "Time": "10:05",
+    "Subject": "EEE0713102",
+    "Title": "Electrical Engineering Lab",
+    "Room": "Electric Lab 3210 (316)",
+    "Faculty": "SU"
+  },
+
+  {
+    "Day": "Thursday",
+    "Batch": "64-C",
+    "Time": "11:25",
+    "Subject": "CSE0613103",
+    "Title": "Data Structure and Algorithms",
+    "Room": "5030 (508)",
+    "Faculty": "MII"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-C",
+    "Time": "1:15",
+    "Subject": "MAT0541102",
+    "Title": "Linear Algebra",
+    "Room": "5060 (503)",
+    "Faculty": "AMU"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-C",
+    "Time": "2:35",
+    "Subject": "MAT0541102",
+    "Title": "Linear Algebra",
+    "Room": "5060 (503)",
+    "Faculty": "AMU"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-D",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-D",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-D",
+    "Time": "11:25",
+    "Subject": "MAT0541102",
+    "Title": "Linear Algebra",
+    "Room": "5230 (516)",
+    "Faculty": "MJ"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-D",
+    "Time": "1:15",
+    "Subject": "EEE0713101",
+    "Title": "Electrical Engineering",
+    "Room": "5230 (516)",
+    "Faculty": "RSM"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-D",
+    "Time": "2:35",
+    "Subject": "EEE0713102",
+    "Title": "Electrical Engineering Lab",
+    "Room": "Electric Lab 3210 (316)",
+    "Faculty": "RSM"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-D",
+    "Time": "3:55",
+    "Subject": "EEE0713102",
+    "Title": "Electrical Engineering Lab",
+    "Room": "Electric Lab 3210 (316)",
+    "Faculty": "RSM"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-D",
+    "Time": "8:45",
+    "Subject": "MAT0541102",
+    "Title": "Linear Algebra",
+    "Room": "5230 (516)",
+    "Faculty": "MJ"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-D",
+    "Time": "10:05",
+    "Subject": "CSE0613103",
+    "Title": "Data Structure and Algorithms",
+    "Room": "5230 (516)",
+    "Faculty": "MII"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-D",
+    "Time": "11:25",
+    "Subject": "EEE0713101",
+    "Title": "Electrical Engineering",
+    "Room": "5230 (516)",
+    "Faculty": "RSM"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-D",
+    "Time": "1:15",
+    "Subject": "GED0223101",
+    "Title": "Professional Ethics and Environmental Protection",
+    "Room": "A004",
+    "Faculty": "AWK"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-D",
+    "Time": "8:45",
+    "Subject": "CSE0613103",
+    "Title": "Data Structure and Algorithms",
+    "Room": "6010 (606)",
+    "Faculty": "MII"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-D",
+    "Time": "10:05",
+    "Subject": "GED0223101",
+    "Title": "Professional Ethics and Environmental Protection",
+    "Room": "5080 (501)",
+    "Faculty": "AWK"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-D",
+    "Time": "11:25",
+    "Subject": "CSE0613104",
+    "Title": "Data Structure and Algorithms Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "MII"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-D",
+    "Time": "1:15",
+    "Subject": "CSE0613104",
+    "Title": "Data Structure and Algorithms Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "MII"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-D",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-D",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-D",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-E",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-E",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-E",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-E",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-E",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "64-E",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-E",
+    "Time": "8:45",
+    "Subject": "EEE0713102",
+    "Title": "Electrical Engineering Lab",
+    "Room": "Electric Lab 3210 (316)",
+    "Faculty": "UP"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-E",
+    "Time": "10:05",
+    "Subject": "EEE0713102",
+    "Title": "Electrical Engineering Lab",
+    "Room": "Electric Lab 3210 (316)",
+    "Faculty": "UP"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-E",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-E",
+    "Time": "1:15",
+    "Subject": "GED0223101",
+    "Title": "Professional Ethics and Environmental Protection",
+    "Room": "A004",
+    "Faculty": "AWK"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-E",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "64-E",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-E",
+    "Time": "8:45",
+    "Subject": "CSE0613103",
+    "Title": "Data Structure and Algorithms",
+    "Room": "3030 (308)",
+    "Faculty": "RLH"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-E",
+    "Time": "10:05",
+    "Subject": "GED0223101",
+    "Title": "Professional Ethics and Environmental Protection",
+    "Room": "5080 (501)",
+    "Faculty": "AWK"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-E",
+    "Time": "11:25",
+    "Subject": "MAT0541102",
+    "Title": "Linear Algebra",
+    "Room": "5030 (508)",
+    "Faculty": "KH"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-E",
+    "Time": "1:15",
+    "Subject": "MAT0541102",
+    "Title": "Linear Algebra",
+    "Room": "5230 (516)",
+    "Faculty": "KH"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-E",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "64-E",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-E",
+    "Time": "8:45",
+    "Subject": "CSE0613103",
+    "Title": "Data Structure and Algorithms",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "RLH"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-E",
+    "Time": "10:05",
+    "Subject": "CSE0613104",
+    "Title": "Data Structure and Algorithms Lab",
+    "Room": "Lab 4150 (411)",
+    "Faculty": "RLH"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-E",
+    "Time": "11:25",
+    "Subject": "CSE0613104",
+    "Title": "Data Structure and Algorithms Lab",
+    "Room": "Lab 4150 (411)",
+    "Faculty": "RLH"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-E",
+    "Time": "1:15",
+    "Subject": "EEE0713101",
+    "Title": "Electrical Engineering",
+    "Room": "6010 (606)",
+    "Faculty": "UP"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-E",
+    "Time": "2:35",
+    "Subject": "EEE0713101",
+    "Title": "Electrical Engineering",
+    "Room": "6010 (606)",
+    "Faculty": "UP"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "64-E",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-A",
+    "Time": "8:45",
+    "Subject": "EEE0713202",
+    "Title": "Electronics Lab",
+    "Room": "Electronic Lab 3200 (315)",
+    "Faculty": "MSH"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-A",
+    "Time": "10:05",
+    "Subject": "EEE0713202",
+    "Title": "Electronics Lab",
+    "Room": "Electronic Lab 3200 (315)",
+    "Faculty": "MSH"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-A",
+    "Time": "1:15",
+    "Subject": "CSE0613203",
+    "Title": "Digital Logic Design",
+    "Room": "5230 (516)",
+    "Faculty": "ASM"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-A",
+    "Time": "2:35",
+    "Subject": "EEE0713201",
+    "Title": "Electronics",
+    "Room": "3170 (312)",
+    "Faculty": "FY"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-A",
+    "Time": "8:45",
+    "Subject": "CSE0613202",
+    "Title": "Object-Oriented Programming Language Lab",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "DNS"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-A",
+    "Time": "10:05",
+    "Subject": "CSE0613202",
+    "Title": "Object-Oriented Programming Language Lab",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "DNS"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-A",
+    "Time": "11:25",
+    "Subject": "CSE0613204",
+    "Title": "Digital Logic Design Lab",
+    "Room": "DLD Lab 0018 (B104)",
+    "Faculty": "RHB"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-A",
+    "Time": "1:15",
+    "Subject": "CSE0613204",
+    "Title": "Digital Logic Design Lab",
+    "Room": "DLD Lab 0018 (B104)",
+    "Faculty": "RHB"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-A",
+    "Time": "8:45",
+    "Subject": "CSE0613201",
+    "Title": "Object-Oriented Programming Language",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "DNS"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-A",
+    "Time": "10:05",
+    "Subject": "CSE0613201",
+    "Title": "Object-Oriented Programming Language",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "DNS"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-A",
+    "Time": "1:15",
+    "Subject": "CSE0613203",
+    "Title": "Digital Logic Design",
+    "Room": "6020 (607)",
+    "Faculty": "ASM"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-A",
+    "Time": "2:35",
+    "Subject": "EEE0713201",
+    "Title": "Electronics",
+    "Room": "6030 (608)",
+    "Faculty": "FY"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-B",
+    "Time": "8:45",
+    "Subject": "CSE0613201",
+    "Title": "Object-Oriented Programming Language",
+    "Room": "6020 (607)",
+    "Faculty": "MMA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-B",
+    "Time": "10:05",
+    "Subject": "CSE0613201",
+    "Title": "Object-Oriented Programming Language",
+    "Room": "6020 (607)",
+    "Faculty": "MMA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-B",
+    "Time": "1:15",
+    "Subject": "EEE0713201",
+    "Title": "Electronics",
+    "Room": "5070 (502)",
+    "Faculty": "NP"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-B",
+    "Time": "2:35",
+    "Subject": "CSE0613203",
+    "Title": "Digital Logic Design",
+    "Room": "5230 (516)",
+    "Faculty": "SAD"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-B",
+    "Time": "8:45",
+    "Subject": "EEE0713202",
+    "Title": "Electronics Lab",
+    "Room": "Lab 3200 (315)",
+    "Faculty": "MHT"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-B",
+    "Time": "10:05",
+    "Subject": "EEE0713202",
+    "Title": "Electronics Lab",
+    "Room": "Lab 3200 (315)",
+    "Faculty": "MHT"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-B",
+    "Time": "11:25",
+    "Subject": "CSE0613203",
+    "Title": "Digital Logic Design",
+    "Room": "3170 (312)",
+    "Faculty": "SAD"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-B",
+    "Time": "2:35",
+    "Subject": "EEE0713201",
+    "Title": "Electronics",
+    "Room": "3030 (308)",
+    "Faculty": "NP"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-B",
+    "Time": "8:45",
+    "Subject": "CSE0613202",
+    "Title": "Object-Oriented Programming Language Lab",
+    "Room": "Lab 4150 (411)",
+    "Faculty": "MMA"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-B",
+    "Time": "10:05",
+    "Subject": "CSE0613202",
+    "Title": "Object-Oriented Programming Language Lab",
+    "Room": "Lab 4150 (411)",
+    "Faculty": "MMA"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-B",
+    "Time": "11:25",
+    "Subject": "CSE0613204",
+    "Title": "Digital Logic Design Lab",
+    "Room": "DLD Lab 0018 (B104)",
+    "Faculty": "SAD"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-B",
+    "Time": "1:15",
+    "Subject": "CSE0613204",
+    "Title": "Digital Logic Design Lab",
+    "Room": "DLD Lab 0018 (B104)",
+    "Faculty": "SAD"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-B",
+    "Time": "2:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "63-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-C",
+    "Time": "8:45",
+    "Subject": "CSE0613203",
+    "Title": "Digital Logic Design",
+    "Room": "5060 (503)",
+    "Faculty": "SZI"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-C",
+    "Time": "11:25",
+    "Subject": "CSE0613201",
+    "Title": "Object-Oriented Programming Language",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "MMA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-C",
+    "Time": "1:15",
+    "Subject": "EEE0713202",
+    "Title": "Electronics Lab",
+    "Room": "Electronic Lab 3200 (315)",
+    "Faculty": "ASE"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-C",
+    "Time": "2:35",
+    "Subject": "EEE0713202",
+    "Title": "Electronics Lab",
+    "Room": "Electronic Lab 3200 (315)",
+    "Faculty": "ASE"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "63-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-C",
+    "Time": "8:45",
+    "Subject": "CSE0613204",
+    "Title": "Digital Logic Design Lab",
+    "Room": "DLD Lab 0018 (B104)",
+    "Faculty": "SZI"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-C",
+    "Time": "10:05",
+    "Subject": "CSE0613204",
+    "Title": "Digital Logic Design Lab",
+    "Room": "DLD Lab 0018 (B104)",
+    "Faculty": "SZI"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-C",
+    "Time": "11:25",
+    "Subject": "EEE0713201",
+    "Title": "Electronics",
+    "Room": "6030 (608)",
+    "Faculty": "ASE"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "63-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-C",
+    "Time": "8:45",
+    "Subject": "CSE0613203",
+    "Title": "Digital Logic Design",
+    "Room": "5060 (503)",
+    "Faculty": "SZI"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-C",
+    "Time": "10:05",
+    "Subject": "EEE0713201",
+    "Title": "Electronics",
+    "Room": "3030 (308)",
+    "Faculty": "ASE"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-C",
+    "Time": "11:25",
+    "Subject": "CSE0613202",
+    "Title": "Object-Oriented Programming Language Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "MMA"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-C",
+    "Time": "1:15",
+    "Subject": "CSE0613202",
+    "Title": "Object-Oriented Programming Language Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "MMA"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-C",
+    "Time": "2:35",
+    "Subject": "CSE0613201",
+    "Title": "Object-Oriented Programming Language",
+    "Room": "6020 (607)",
+    "Faculty": "MMA"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "63-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-A",
+    "Time": "8:45",
+    "Subject": "CSE0613209",
+    "Title": "Microprocessor Assembly Programming",
+    "Room": "6030 (608)",
+    "Faculty": "ABS"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-A",
+    "Time": "10:05",
+    "Subject": "CSE0613209",
+    "Title": "Microprocessor Assembly Programming",
+    "Room": "6030 (608)",
+    "Faculty": "ABS"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-A",
+    "Time": "11:25",
+    "Subject": "CSE0613206",
+    "Title": "Operating System Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "NHE"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-A",
+    "Time": "1:15",
+    "Subject": "CSE0613206",
+    "Title": "Operating System Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "NHE"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-A",
+    "Time": "2:35",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "6010 (606)",
+    "Faculty": "NJA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-A",
+    "Time": "8:45",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "5020 (507)",
+    "Faculty": "NJA"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-A",
+    "Time": "10:05",
+    "Subject": "CSE0613205",
+    "Title": "Operating System",
+    "Room": "5020 (507)",
+    "Faculty": "NHE"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-A",
+    "Time": "11:25",
+    "Subject": "CSE0613205",
+    "Title": "Operating System",
+    "Room": "5020 (507)",
+    "Faculty": "NHE"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-A",
+    "Time": "8:45",
+    "Subject": "CSE0613210",
+    "Title": "Microprocessor Assembly Programming Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "ABS"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-A",
+    "Time": "10:05",
+    "Subject": "CSE0613210",
+    "Title": "Microprocessor Assembly Programming Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "ABS"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-A",
+    "Time": "11:25",
+    "Subject": "MAT0541201",
+    "Title": "Engineering Mathematics",
+    "Room": "5070 (502)",
+    "Faculty": "MBH"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-A",
+    "Time": "1:15",
+    "Subject": "MAT0541201",
+    "Title": "Engineering Mathematics",
+    "Room": "5070 (502)",
+    "Faculty": "MBH"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-B",
+    "Time": "8:45",
+    "Subject": "CSE0613210",
+    "Title": "Microprocessor Assembly Programming Lab",
+    "Room": null,
+    "Faculty": "SNA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-B",
+    "Time": "10:05",
+    "Subject": "CSE0613210",
+    "Title": "Microprocessor Assembly Programming Lab",
+    "Room": null,
+    "Faculty": "SNA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-B",
+    "Time": "11:25",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "5020 (507)",
+    "Faculty": "NJA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-B",
+    "Time": "1:15",
+    "Subject": "CSE0613205",
+    "Title": "Operating System",
+    "Room": "5060 (503)",
+    "Faculty": "NAZ"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-B",
+    "Time": "2:35",
+    "Subject": "CSE0613206",
+    "Title": "Operating System Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "NAZ"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-B",
+    "Time": "3:55",
+    "Subject": "CSE0613206",
+    "Title": "Operating System Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "NAZ"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-B",
+    "Time": "8:45",
+    "Subject": "CSE0613205",
+    "Title": "Operating System",
+    "Room": "5080 (501)",
+    "Faculty": "NAZ"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-B",
+    "Time": "10:05",
+    "Subject": "CSE0613209",
+    "Title": "Microprocessor Assembly Programming",
+    "Room": "5190 (512)",
+    "Faculty": "SNA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-B",
+    "Time": "11:25",
+    "Subject": "CSE0613209",
+    "Title": "Microprocessor Assembly Programming",
+    "Room": "5190 (512)",
+    "Faculty": "SNA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-B",
+    "Time": "1:15",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "6030 (608)",
+    "Faculty": "NJA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-B",
+    "Time": "1:15",
+    "Subject": "MAT0541201",
+    "Title": "Engineering Mathematics",
+    "Room": "5070 (502)",
+    "Faculty": "AMU"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-B",
+    "Time": "2:35",
+    "Subject": "MAT0541201",
+    "Title": "Engineering Mathematics",
+    "Room": "5070 (502)",
+    "Faculty": "AMU"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-C",
+    "Time": "10:05",
+    "Subject": "MAT0541201",
+    "Title": "Engineering Mathematics",
+    "Room": null,
+    "Faculty": "AMU"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-C",
+    "Time": "11:25",
+    "Subject": "CSE0613210",
+    "Title": "Microprocessor Assembly Programming Lab",
+    "Room": null,
+    "Faculty": "SNA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-C",
+    "Time": "1:15",
+    "Subject": "CSE0613210",
+    "Title": "Microprocessor Assembly Programming Lab",
+    "Room": null,
+    "Faculty": "SNA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-C",
+    "Time": "8:45",
+    "Subject": "CSE0613206",
+    "Title": "Operating System Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "ASE"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-C",
+    "Time": "10:05",
+    "Subject": "CSE0613206",
+    "Title": "Operating System Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "ASE"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-C",
+    "Time": "11:25",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "5070 (502)",
+    "Faculty": "RPS"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-C",
+    "Time": "1:15",
+    "Subject": "MAT0541201",
+    "Title": "Engineering Mathematics",
+    "Room": "5070 (502)",
+    "Faculty": "AMU"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-C",
+    "Time": "2:35",
+    "Subject": "CSE0613209",
+    "Title": "Microprocessor Assembly Programming",
+    "Room": "5070 (502)",
+    "Faculty": "SNA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-C",
+    "Time": "8:45",
+    "Subject": "CSE0613205",
+    "Title": "Operating System",
+    "Room": "5060 (503)",
+    "Faculty": "ASE"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-C",
+    "Time": "10:05",
+    "Subject": "CSE0613205",
+    "Title": "Operating System",
+    "Room": "5060 (503)",
+    "Faculty": "ASE"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-C",
+    "Time": "11:25",
+    "Subject": "CSE0613209",
+    "Title": "Microprocessor Assembly Programming",
+    "Room": "5060 (503)",
+    "Faculty": "SNA"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-C",
+    "Time": "1:15",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "5060 (503)",
+    "Faculty": "RPS"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-D",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-D",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-D",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "62-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-D",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-D",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-D",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "62-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-D",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-D",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-D",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "62-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-D",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-D",
+    "Time": "10:05",
+    "Subject": "CSE0613210",
+    "Title": "Microprocessor Assembly Programming Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "SNA"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-D",
+    "Time": "11:25",
+    "Subject": "CSE0613210",
+    "Title": "Microprocessor Assembly Programming Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "SNA"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-D",
+    "Time": "1:15",
+    "Subject": "CSE0613206",
+    "Title": "Operating System Lab",
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "ASE"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-D",
+    "Time": "2:35",
+    "Subject": "CSE0613206",
+    "Title": "Operating System Lab",
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "ASE"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "62-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-A",
+    "Time": "8:45",
+    "Subject": "CSE0612301",
+    "Title": "Database Management System",
+    "Room": "5080 (501)",
+    "Faculty": "SAC"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-A",
+    "Time": "10:05",
+    "Subject": "CSE0612301",
+    "Title": "Database Management System",
+    "Room": "5080 (501)",
+    "Faculty": "SAC"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-A",
+    "Time": "11:25",
+    "Subject": "CSE0613305",
+    "Title": "Automate Theory and Compiler",
+    "Room": "6020 (607)",
+    "Faculty": "REH"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-A",
+    "Time": "1:15",
+    "Subject": "CSE0613307",
+    "Title": "System Configuration and Performance Evaluation",
+    "Room": "Lab 4150 (411)",
+    "Faculty": "PRB"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-A",
+    "Time": "2:35",
+    "Subject": "CSE0613307",
+    "Title": "System Configuration and Performance Evaluation",
+    "Room": "Lab 4150 (411)",
+    "Faculty": "PRB"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-A",
+    "Time": "8:45",
+    "Subject": "CSE0612302",
+    "Title": "Database Management System Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "SAC"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-A",
+    "Time": "10:05",
+    "Subject": "CSE0612302",
+    "Title": "Database Management System Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "SAC"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-A",
+    "Time": "1:15",
+    "Subject": "CSE0613305",
+    "Title": "Automate Theory and Compiler",
+    "Room": "6020 (607)",
+    "Faculty": "REH"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-A",
+    "Time": "2:35",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "5060 (503)",
+    "Faculty": "MMH"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-A",
+    "Time": "8:45",
+    "Subject": "CSE0613306",
+    "Title": "Automate Theory and Compiler Lab",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "REH"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-A",
+    "Time": "10:05",
+    "Subject": "CSE0613306",
+    "Title": "Automate Theory and Compiler Lab",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "REH"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-A",
+    "Time": "1:15",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "6010 (606)",
+    "Faculty": "MMH"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-B",
+    "Time": "8:45",
+    "Subject": "CSE0612302",
+    "Title": "Database Management System Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "HAR"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-B",
+    "Time": "10:05",
+    "Subject": "CSE0612302",
+    "Title": "Database Management System Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "HAR"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-B",
+    "Time": "11:25",
+    "Subject": "CSE0613306",
+    "Title": "Automate Theory and Compiler Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "MTZ"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-B",
+    "Time": "1:15",
+    "Subject": "CSE0613306",
+    "Title": "Automate Theory and Compiler Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "MTZ"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-B",
+    "Time": "2:35",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "6010 (606)",
+    "Faculty": "MMH"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-B",
+    "Time": "8:45",
+    "Subject": "CSE0613307",
+    "Title": "System Configuration and Performance Evaluation",
+    "Room": "Lab 4150 (411)",
+    "Faculty": "PRB"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-B",
+    "Time": "10:05",
+    "Subject": "CSE0613307",
+    "Title": "System Configuration and Performance Evaluation",
+    "Room": "Lab 4150 (411)",
+    "Faculty": "PRB"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-B",
+    "Time": "1:15",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "6010 (606)",
+    "Faculty": "MMH"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-B",
+    "Time": "2:35",
+    "Subject": "CSE0613305",
+    "Title": "Automate Theory and Compiler",
+    "Room": "5030 (508)",
+    "Faculty": "MTZ"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-B",
+    "Time": "8:45",
+    "Subject": "CSE0612301",
+    "Title": "Database Management System",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "HAR"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-B",
+    "Time": "10:05",
+    "Subject": "CSE0612301",
+    "Title": "Database Management System",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "HAR"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-B",
+    "Time": "11:25",
+    "Subject": "CSE0613305",
+    "Title": "Automate Theory and Compiler",
+    "Room": "6020 (607)",
+    "Faculty": "MTZ"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-C",
+    "Time": "8:45",
+    "Subject": "CSE0613307",
+    "Title": "System Configuration and Performance Evaluation",
+    "Room": "6030 (608)",
+    "Faculty": "MRA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-C",
+    "Time": "10:05",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "6030 (608)",
+    "Faculty": "MRA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-C",
+    "Time": "11:25",
+    "Subject": "CSE0612301",
+    "Title": "Database Management System",
+    "Room": "Lab 4150 (411)",
+    "Faculty": "MTQ"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-C",
+    "Time": "1:15",
+    "Subject": "CSE0612301",
+    "Title": "Database Management System",
+    "Room": "6010 (606)",
+    "Faculty": "MTQ"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-C",
+    "Time": "2:35",
+    "Subject": "CSE0613305",
+    "Title": "Automate Theory and Compiler",
+    "Room": "6020 (607)",
+    "Faculty": "MTZ"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-C",
+    "Time": "8:45",
+    "Subject": "CSE0613306",
+    "Title": "Automate Theory and Compiler Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "MTZ"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-C",
+    "Time": "10:05",
+    "Subject": "CSE0613306",
+    "Title": "Automate Theory and Compiler Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "MTZ"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-C",
+    "Time": "1:15",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "3170 (312)",
+    "Faculty": "MRA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-C",
+    "Time": "8:45",
+    "Subject": "CSE0613307",
+    "Title": "System Configuration and Performance Evaluation",
+    "Room": "5190 (512)",
+    "Faculty": "MRA"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-C",
+    "Time": "11:25",
+    "Subject": "CSE0613305",
+    "Title": "Automate Theory and Compiler",
+    "Room": "6030 (608)",
+    "Faculty": "MTZ"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-C",
+    "Time": "1:15",
+    "Subject": "CSE0612302",
+    "Title": "Database Management System Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "MTQ"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-C",
+    "Time": "2:35",
+    "Subject": "CSE0612302",
+    "Title": "Database Management System Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "MTQ"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-D",
+    "Time": "8:45",
+    "Subject": "CSE0613305",
+    "Title": "Automate Theory and Compiler",
+    "Room": "5030 (508)",
+    "Faculty": "MSY"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-D",
+    "Time": "10:05",
+    "Subject": "CSE0612301",
+    "Title": "Database Management System",
+    "Room": "5020 (507)",
+    "Faculty": "MTQ"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-D",
+    "Time": "1:15",
+    "Subject": "CSE0613307",
+    "Title": "System Configuration and Performance Evaluation",
+    "Room": "6030 (608)",
+    "Faculty": "MRA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-D",
+    "Time": "2:35",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "Lab 6180 (613)",
+    "Faculty": "MRA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-D",
+    "Time": "8:45",
+    "Subject": "CSE0613305",
+    "Title": "Automate Theory and Compiler",
+    "Room": "3170 (312)",
+    "Faculty": "MSY"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-D",
+    "Time": "10:05",
+    "Subject": "CSE0613307",
+    "Title": "System Configuration and Performance Evaluation",
+    "Room": "5020 (507)",
+    "Faculty": "MRA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-D",
+    "Time": "11:25",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "5020 (507)",
+    "Faculty": "MRA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-D",
+    "Time": "1:15",
+    "Subject": "CSE0612302",
+    "Title": "Database Management System Lab",
+    "Room": "Lab 4150 (411)",
+    "Faculty": "MTQ"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-D",
+    "Time": "2:35",
+    "Subject": "CSE0612302",
+    "Title": "Database Management System Lab",
+    "Room": "Lab 4150 (411)",
+    "Faculty": "MTQ"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+
+  {
+    "Day": "Wednesday",
+    "Batch": "61-D",
+    "Time": "8:45",
+    "Subject": "CSE0613306",
+    "Title": "Automate Theory and Compiler Lab",
+    "Room": "Lab 6180 (613)",
+    "Faculty": "MSY"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-D",
+    "Time": "10:05",
+    "Subject": "CSE0613306",
+    "Title": "Automate Theory and Compiler Lab",
+    "Room": "Lab 6180 (613)",
+    "Faculty": "MSY"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-D",
+    "Time": "1:15",
+    "Subject": "CSE0612301",
+    "Title": "Database Management System",
+    "Room": "3030 (308)",
+    "Faculty": "MTQ"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-D",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-D",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-D",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-E",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-E",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-E",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-E",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-E",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-E",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-E",
+    "Time": "8:45",
+    "Subject": "CSE0612302",
+    "Title": "Database Management System Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "HAR"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-E",
+    "Time": "10:05",
+    "Subject": "CSE0612302",
+    "Title": "Database Management System Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "HAR"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-E",
+    "Time": "11:25",
+    "Subject": "CSE0613305",
+    "Title": "Automate Theory and Compiler",
+    "Room": "6030 (608)",
+    "Faculty": "IZT"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-E",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-E",
+    "Time": "2:35",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "6030 (608)",
+    "Faculty": "SRR"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-E",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-E",
+    "Time": "8:45",
+    "Subject": "CSE0613306",
+    "Title": "Automate Theory and Compiler Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "IZT"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-E",
+    "Time": "10:05",
+    "Subject": "CSE0613306",
+    "Title": "Automate Theory and Compiler Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "IZT"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-E",
+    "Time": "11:25",
+    "Subject": "CSE0612301",
+    "Title": "Database Management System",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "HAR"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-E",
+    "Time": "1:15",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "6030 (608)",
+    "Faculty": "SRR"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-E",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-E",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-E",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-E",
+    "Time": "10:05",
+    "Subject": "CSE0612301",
+    "Title": "Database Management System",
+    "Room": "5060 (503)",
+    "Faculty": "HAR"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-E",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-E",
+    "Time": "1:15",
+    "Subject": "CSE0613305",
+    "Title": "Automate Theory and Compiler",
+    "Room": "6030 (608)",
+    "Faculty": "IZT"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-E",
+    "Time": "2:35",
+    "Subject": "CSE0613307",
+    "Title": "System Configuration and Performance Evaluation",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "SSK"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-E",
+    "Time": "3:55",
+    "Subject": "CSE0613307",
+    "Title": "System Configuration and Performance Evaluation",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "SSK"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-F",
+    "Time": "8:45",
+    "Subject": "CSE0613305",
+    "Title": "Automate Theory and Compiler",
+    "Room": "6010 (606)",
+    "Faculty": "TSL"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-F",
+    "Time": "10:05",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "5230 (516)",
+    "Faculty": "SRR"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-F",
+    "Time": "11:25",
+    "Subject": "CSE0612302",
+    "Title": "Database Management System Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "RLH"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-F",
+    "Time": "1:15",
+    "Subject": "CSE0612302",
+    "Title": "Database Management System Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "RLH"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-F",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "61-F",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-F",
+    "Time": "8:45",
+    "Subject": "CSE0613305",
+    "Title": "Automate Theory and Compiler",
+    "Room": "5030 (508)",
+    "Faculty": "TSL"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-F",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-F",
+    "Time": "11:25",
+    "Subject": "CSE0612303",
+    "Title": "Data Communication",
+    "Room": "6020 (607)",
+    "Faculty": "SRR"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-F",
+    "Time": "1:15",
+    "Subject": "CSE0612301",
+    "Title": "Database Management System",
+    "Room": "5230 (516)",
+    "Faculty": "RLH"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-F",
+    "Time": "2:35",
+    "Subject": "CSE0612301",
+    "Title": "Database Management System",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "RLH"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "61-F",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-F",
+    "Time": "8:45",
+    "Subject": "CSE0613306",
+    "Title": "Automate Theory and Compiler Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "TSL"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-F",
+    "Time": "10:05",
+    "Subject": "CSE0613306",
+    "Title": "Automate Theory and Compiler Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "TSL"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-F",
+    "Time": "11:25",
+    "Subject": "CSE0613307",
+    "Title": "System Configuration and Performance Evaluation",
+    "Room": "Lab 6180 (613)",
+    "Faculty": "SSK"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-F",
+    "Time": "1:15",
+    "Subject": "CSE0613307",
+    "Title": "System Configuration and Performance Evaluation",
+    "Room": "Lab 6180 (613)",
+    "Faculty": "SSK"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-F",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "61-F",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-F",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-F",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-F",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-F",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-F",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "61-F",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-A",
+    "Time": "10:05",
+    "Subject": "CSE0611301",
+    "Title": "Engineering Drawing",
+    "Room": "5030 (508)",
+    "Faculty": "TSL"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-A",
+    "Time": "11:25",
+    "Subject": "CSE0611303",
+    "Title": "Computer and Cyber Security",
+    "Room": "5190 (512)",
+    "Faculty": "TZW"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-A",
+    "Time": "1:15",
+    "Subject": "CSE0611303",
+    "Title": "Computer and Cyber Security",
+    "Room": "5190 (512)",
+    "Faculty": "TZW"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-A",
+    "Time": "8:45",
+    "Subject": "CSE0612305",
+    "Title": "Computer Networking",
+    "Room": "5070 (502)",
+    "Faculty": "DMA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-A",
+    "Time": "10:05",
+    "Subject": "CSE0612305",
+    "Title": "Computer Networking",
+    "Room": "5070 (502)",
+    "Faculty": "DMA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-A",
+    "Time": "11:25",
+    "Subject": "CSE0611301",
+    "Title": "Engineering Drawing",
+    "Room": "5030 (508)",
+    "Faculty": "TSL"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-A",
+    "Time": "1:15",
+    "Subject": "CSE0613310",
+    "Title": "Software Engineering Lab",
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "SAK"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-A",
+    "Time": "2:35",
+    "Subject": "CSE0613310",
+    "Title": "Software Engineering Lab",
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "SAK"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-A",
+    "Time": "10:05",
+    "Subject": "CSE0612306",
+    "Title": "Computer Networking Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "DMA"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-A",
+    "Time": "11:25",
+    "Subject": "CSE0612306",
+    "Title": "Computer Networking Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "DMA"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-A",
+    "Time": "1:15",
+    "Subject": "CSE0613309",
+    "Title": "Software Engineering",
+    "Room": "5030 (508)",
+    "Faculty": "SAK"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-A",
+    "Time": "2:35",
+    "Subject": "CSE0613309",
+    "Title": "Software Engineering",
+    "Room": "5030 (508)",
+    "Faculty": "SAK"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-B",
+    "Time": "8:45",
+    "Subject": "CSE0612306",
+    "Title": "Computer Networking Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "DMA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-B",
+    "Time": "10:05",
+    "Subject": "CSE0612306",
+    "Title": "Computer Networking Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "DMA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-B",
+    "Time": "11:25",
+    "Subject": "CSE0611301",
+    "Title": "Engineering Drawing",
+    "Room": "5030 (508)",
+    "Faculty": "TSL"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-B",
+    "Time": "1:15",
+    "Subject": "CSE0613310",
+    "Title": "Software Engineering Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "MAK"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-B",
+    "Time": "2:35",
+    "Subject": "CSE0613310",
+    "Title": "Software Engineering Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "MAK"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-B",
+    "Time": "10:05",
+    "Subject": "CSE0613309",
+    "Title": "Software Engineering",
+    "Room": "5060 (503)",
+    "Faculty": "MAK"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-B",
+    "Time": "11:25",
+    "Subject": "CSE0613309",
+    "Title": "Software Engineering",
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "MAK"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-B",
+    "Time": "2:35",
+    "Subject": "CSE0611303",
+    "Title": "Computer and Cyber Security",
+    "Room": "5190 (512)",
+    "Faculty": "TZW"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-B",
+    "Time": "8:45",
+    "Subject": "CSE0611301",
+    "Title": "Engineering Drawing",
+    "Room": "5070 (502)",
+    "Faculty": "TSL"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-B",
+    "Time": "10:05",
+    "Subject": "CSE0611303",
+    "Title": "Computer and Cyber Security",
+    "Room": "5070 (502)",
+    "Faculty": "TZW"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-B",
+    "Time": "1:15",
+    "Subject": "CSE0612305",
+    "Title": "Computer Networking",
+    "Room": "5080 (501)",
+    "Faculty": "DMA"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-B",
+    "Time": "2:35",
+    "Subject": "CSE0612305",
+    "Title": "Computer Networking",
+    "Room": "5080 (501)",
+    "Faculty": "DMA"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-C",
+    "Time": "8:45",
+    "Subject": "CSE0611303",
+    "Title": "Computer and Cyber Security",
+    "Room": "5020 (507)",
+    "Faculty": "PRB"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-C",
+    "Time": "10:05",
+    "Subject": "CSE0611301",
+    "Title": "Engineering Drawing",
+    "Room": "5060 (503)",
+    "Faculty": "NNL"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-C",
+    "Time": "11:25",
+    "Subject": "CSE0611301",
+    "Title": "Engineering Drawing",
+    "Room": "5060 (503)",
+    "Faculty": "NNL"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-C",
+    "Time": "2:35",
+    "Subject": "CSE0612305",
+    "Title": "Computer Networking",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "TZW"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-C",
+    "Time": "8:45",
+    "Subject": "CSE0613310",
+    "Title": "Software Engineering Lab",
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "HHR"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-C",
+    "Time": "10:05",
+    "Subject": "CSE0613310",
+    "Title": "Software Engineering Lab",
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "HHR"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-C",
+    "Time": "11:25",
+    "Subject": "CSE0612306",
+    "Title": "Computer Networking Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "TZW"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-C",
+    "Time": "1:15",
+    "Subject": "CSE0612306",
+    "Title": "Computer Networking Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "TZW"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-C",
+    "Time": "8:45",
+    "Subject": "CSE0611303",
+    "Title": "Computer and Cyber Security",
+    "Room": "5030 (508)",
+    "Faculty": "PRB"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-C",
+    "Time": "10:05",
+    "Subject": "CSE0613309",
+    "Title": "Software Engineering",
+    "Room": "5230 (516)",
+    "Faculty": "MAK"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-C",
+    "Time": "11:25",
+    "Subject": "CSE0613309",
+    "Title": "Software Engineering",
+    "Room": "5230 (516)",
+    "Faculty": "MAK"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-C",
+    "Time": "2:35",
+    "Subject": "CSE0612305",
+    "Title": "Computer Networking",
+    "Room": "5070 (502)",
+    "Faculty": "TZW"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-D",
+    "Time": "8:45",
+    "Subject": "CSE0613310",
+    "Title": "Software Engineering Lab",
+    "Room": "Lab 4150 (411)",
+    "Faculty": "MMH"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-D",
+    "Time": "10:05",
+    "Subject": "CSE0613310",
+    "Title": "Software Engineering Lab",
+    "Room": "Lab 4150 (411)",
+    "Faculty": "MMH"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-D",
+    "Time": "11:25",
+    "Subject": "CSE0613309",
+    "Title": "Software Engineering",
+    "Room": "6030 (608)",
+    "Faculty": "TBM"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-D",
+    "Time": "1:15",
+    "Subject": "CSE0612305",
+    "Title": "Computer Networking",
+    "Room": "5080 (501)",
+    "Faculty": "RHA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-D",
+    "Time": "2:35",
+    "Subject": "CSE0611301",
+    "Title": "Engineering Drawing",
+    "Room": "5080 (501)",
+    "Faculty": "KCB"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-D",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-D",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-D",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-D",
+    "Time": "8:45",
+    "Subject": "CSE0613309",
+    "Title": "Software Engineering",
+    "Room": "5080 (501)",
+    "Faculty": "TBM"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-D",
+    "Time": "10:05",
+    "Subject": "CSE0612305",
+    "Title": "Computer Networking",
+    "Room": "6020 (607)",
+    "Faculty": "RHA"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-D",
+    "Time": "1:15",
+    "Subject": "CSE0611303",
+    "Title": "Computer and Cyber Security",
+    "Room": "Lab 4150 (411)",
+    "Faculty": "PRB"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-D",
+    "Time": "8:45",
+    "Subject": "CSE0611301",
+    "Title": "Engineering Drawing",
+    "Room": "6010 (606)",
+    "Faculty": "KCB"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-D",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-D",
+    "Time": "11:25",
+    "Subject": "CSE0611303",
+    "Title": "Computer and Cyber Security",
+    "Room": "6010 (606)",
+    "Faculty": "PRB"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-D",
+    "Time": "1:15",
+    "Subject": "CSE0612306",
+    "Title": "Computer Networking Lab",
+    "Room": "Lab 6180 (613)",
+    "Faculty": "RHA"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-D",
+    "Time": "2:35",
+    "Subject": "CSE0612306",
+    "Title": "Computer Networking Lab",
+    "Room": "Lab 6180 (613)",
+    "Faculty": "RHA"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-E",
+    "Time": "8:45",
+    "Subject": "CSE0612305",
+    "Title": "Computer Networking",
+    "Room": "5230 (516)",
+    "Faculty": "SIS"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-E",
+    "Time": "10:05",
+    "Subject": "CSE0611301",
+    "Title": "Engineering Drawing",
+    "Room": "5190 (512)",
+    "Faculty": "SSK"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-E",
+    "Time": "11:25",
+    "Subject": "CSE0613310",
+    "Title": "Software Engineering Lab",
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "ZNT"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-E",
+    "Time": "1:15",
+    "Subject": "CSE0613310",
+    "Title": "Software Engineering Lab",
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "ZNT"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-E",
+    "Time": "2:35",
+    "Subject": "CSE0611303",
+    "Title": "Computer and Cyber Security",
+    "Room": "6030 (608)",
+    "Faculty": "TBM"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-E",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-E",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-E",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-E",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-E",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-E",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-E",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-E",
+    "Time": "8:45",
+    "Subject": "CSE0611301",
+    "Title": "Engineering Drawing",
+    "Room": "6030 (608)",
+    "Faculty": "SSK"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-E",
+    "Time": "10:05",
+    "Subject": "CSE0613309",
+    "Title": "Software Engineering",
+    "Room": "3030 (308)",
+    "Faculty": "ZNT"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-E",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-E",
+    "Time": "1:15",
+    "Subject": "CSE0612305",
+    "Title": "Computer Networking",
+    "Room": "5190 (512)",
+    "Faculty": "SIS"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-E",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-E",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-E",
+    "Time": "8:45",
+    "Subject": "CSE0612306",
+    "Title": "Computer Networking Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "SIS"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-E",
+    "Time": "10:05",
+    "Subject": "CSE0612306",
+    "Title": "Computer Networking Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "SIS"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-E",
+    "Time": "11:25",
+    "Subject": "CSE0611303",
+    "Title": "Computer and Cyber Security",
+    "Room": "6020 (607)",
+    "Faculty": "TBM"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-E",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-E",
+    "Time": "2:35",
+    "Subject": "CSE0613309",
+    "Title": "Software Engineering",
+    "Room": "3170 (312)",
+    "Faculty": "ZNT"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-E",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-F",
+    "Time": "8:45",
+    "Subject": "CSE0613310",
+    "Title": "Software Engineering Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "HHR"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-F",
+    "Time": "10:05",
+    "Subject": "CSE0613310",
+    "Title": "Software Engineering Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "HHR"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-F",
+    "Time": "11:25",
+    "Subject": "CSE0612305",
+    "Title": "Computer Networking",
+    "Room": "5080 (501)",
+    "Faculty": "RHA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-F",
+    "Time": "1:15",
+    "Subject": "CSE0611303",
+    "Title": "Computer and Cyber Security",
+    "Room": "6020 (607)",
+    "Faculty": "TBM"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-F",
+    "Time": "2:35",
+    "Subject": "CSE0612305",
+    "Title": "Computer Networking",
+    "Room": "5070 (502)",
+    "Faculty": "RHA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-F",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-F",
+    "Time": "8:45",
+    "Subject": "CSE0611301",
+    "Title": "Engineering Drawing",
+    "Room": "3030 (308)",
+    "Faculty": "JNJ"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-F",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-F",
+    "Time": "11:25",
+    "Subject": "CSE0613309",
+    "Title": "Software Engineering",
+    "Room": "3030 (308)",
+    "Faculty": "HHR"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-F",
+    "Time": "1:15",
+    "Subject": "CSE0612306",
+    "Title": "Computer Networking Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "RHA"
+  },
+  {
+    "Day": "Tuesday",
+    "Time": "2:35",
+    "Batch": "60-F",
+    "Subject": "CSE0612306",
+    "Title": "Computer Networking Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "RHA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-F",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-F",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-F",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-F",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-F",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-F",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-F",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-F",
+    "Time": "8:45",
+    "Subject": "CSE0613309",
+    "Title": "Software Engineering",
+    "Room": "5230 (516)",
+    "Faculty": "HHR"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-F",
+    "Time": "10:05",
+    "Subject": "CSE0611301",
+    "Title": "Engineering Drawing",
+    "Room": "6010 (606)",
+    "Faculty": "JNJ"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-F",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-F",
+    "Time": "1:15",
+    "Subject": "CSE0611303",
+    "Title": "Computer and Cyber Security",
+    "Room": "3030 (308)",
+    "Faculty": "TBM"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-F",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-F",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-G",
+    "Time": "8:45",
+    "Subject": "CSE0612306",
+    "Title": "Computer Networking Lab",
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "SBR"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-G",
+    "Time": "10:05",
+    "Subject": "CSE0612306",
+    "Title": "Computer Networking Lab",
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "SBR"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-G",
+    "Time": "11:25",
+    "Subject": "CSE0613310",
+    "Title": "Software Engineering Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "HHR"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-G",
+    "Time": "1:15",
+    "Subject": "CSE0613310",
+    "Title": "Software Engineering Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "HHR"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-G",
+    "Time": "2:35",
+    "Subject": "CSE0611301",
+    "Title": "Engineering Drawing",
+    "Room": "5190 (512)",
+    "Faculty": "TSL"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-G",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-G",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-G",
+    "Time": "10:05",
+    "Subject": "CSE0611301",
+    "Title": "Engineering Drawing",
+    "Room": "6010 (606)",
+    "Faculty": "TSL"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-G",
+    "Time": "11:25",
+    "Subject": "CSE0612305",
+    "Title": "Computer Networking",
+    "Room": "5080 (501)",
+    "Faculty": "SBR"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-G",
+    "Time": "1:15",
+    "Subject": "CSE0613309",
+    "Title": "Software Engineering",
+    "Room": "5030 (508)",
+    "Faculty": "HHR"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-G",
+    "Time": "2:35",
+    "Subject": "CSE0611303",
+    "Title": "Computer and Cyber Security",
+    "Room": "6020 (607)",
+    "Faculty": "ASM"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-G",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-G",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-G",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-G",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-G",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-G",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-G",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-G",
+    "Time": "8:45",
+    "Subject": "CSE0612305",
+    "Title": "Computer Networking",
+    "Room": "5020 (507)",
+    "Faculty": "SBR"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-G",
+    "Time": "10:05",
+    "Subject": "CSE0611303",
+    "Title": "Computer and Cyber Security",
+    "Room": "6020 (607)",
+    "Faculty": "ASM"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-G",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-G",
+    "Time": "1:15",
+    "Subject": "CSE0613309",
+    "Title": "Software Engineering",
+    "Room": "3170 (312)",
+    "Faculty": "HHR"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-G",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-G",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-H",
+    "Time": "8:45",
+    "Subject": "CSE0613310",
+    "Title": "Software Engineering Lab",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "BTD"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-H",
+    "Time": "10:05",
+    "Subject": "CSE0613310",
+    "Title": "Software Engineering Lab",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "BTD"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-H",
+    "Time": "11:25",
+    "Subject": "CSE0612306",
+    "Title": "Computer Networking Lab",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "RTE"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-H",
+    "Time": "1:15",
+    "Subject": "CSE0612306",
+    "Title": "Computer Networking Lab",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "RTE"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-H",
+    "Time": "2:35",
+    "Subject": "CSE0611303",
+    "Title": "Computer and Cyber Security",
+    "Room": "5030 (508)",
+    "Faculty": "ASM"
+  },
+  {
+    "Day": "Monday",
+    "Batch": "60-H",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-H",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-H",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-H",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-H",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-H",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "60-H",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+
+  {
+    "Day": "Wednesday",
+    "Batch": "60-H",
+    "Time": "8:45",
+    "Subject": "CSE0611301",
+    "Title": "Engineering Drawing",
+    "Room": "5230 (516)",
+    "Faculty": "MTZ"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-H",
+    "Time": "10:05",
+    "Subject": "CSE0613309",
+    "Title": "Software Engineering",
+    "Room": "6030 (608)",
+    "Faculty": "BTD"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-H",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-H",
+    "Time": "1:15",
+    "Subject": "CSE0612305",
+    "Title": "Computer Networking",
+    "Room": "6020 (607)",
+    "Faculty": "RTE"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-H",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "60-H",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-H",
+    "Time": "8:45",
+    "Subject": "CSE0611303",
+    "Title": "Computer and Cyber Security",
+    "Room": "6020 (607)",
+    "Faculty": "ASM"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-H",
+    "Time": "10:05",
+    "Subject": "CSE0611301",
+    "Title": "Engineering Drawing",
+    "Room": "6030 (608)",
+    "Faculty": "MTZ"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-H",
+    "Time": "11:25",
+    "Subject": "CSE0613309",
+    "Title": "Software Engineering",
+    "Room": "3030 (308)",
+    "Faculty": "BTD"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-H",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-H",
+    "Time": "2:35",
+    "Subject": "CSE0612305",
+    "Title": "Computer Networking",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "RTE"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "60-H",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "59-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "59-A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "59-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "59-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "59-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "59-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "59-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "59-A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "59-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "59-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "59-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "59-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "59-A",
+    "Time": "8:45",
+    "Subject": "CSE0613405",
+    "Title": "Machine Learning",
+    "Room": "5190 (512)",
+    "Faculty": "RHB"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "59-A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "59-A",
+    "Time": "11:25",
+    "Subject": "CSE0613401",
+    "Title": "Software Project Management",
+    "Room": "6010 (606)",
+    "Faculty": "REH"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "59-A",
+    "Time": "1:15",
+    "Subject": "MIS0611401",
+    "Title": "Information Systems Management",
+    "Room": "5080 (501)",
+    "Faculty": "MAT"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "59-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "59-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "59-A",
+    "Time": "8:45",
+    "Subject": "CSE0613405",
+    "Title": "Machine Learning",
+    "Room": "3030 (308)",
+    "Faculty": "RHB"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "59-A",
+    "Time": "10:05",
+    "Subject": "MIS0611401",
+    "Title": "Information Systems Management",
+    "Room": "5020 (507)",
+    "Faculty": "MAT"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "59-A",
+    "Time": "11:25",
+    "Subject": "CSE0613401",
+    "Title": "Software Project Management",
+    "Room": "5060 (503)",
+    "Faculty": "REH"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "59-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "59-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "59-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "59-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "59-B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "59-B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "59-B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "59-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "59-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "59-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "59-B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "59-B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "59-B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "59-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "59-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "59-B",
+    "Time": "8:45",
+    "Subject": "MIS0611401",
+    "Title": "Information Systems Management",
+    "Room": "5070 (502)",
+    "Faculty": "MAT"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "59-B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "59-B",
+    "Time": "11:25",
+    "Subject": "CSE0613405",
+    "Title": "Machine Learning",
+    "Room": "5190 (512)",
+    "Faculty": "RHB"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "59-B",
+    "Time": "1:15",
+    "Subject": "CSE0613401",
+    "Title": "Software Project Management",
+    "Room": "3170 (312)",
+    "Faculty": "REH"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "59-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "59-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "59-B",
+    "Time": "8:45",
+    "Subject": "MIS0611401",
+    "Title": "Information Systems Management",
+    "Room": "6030 (608)",
+    "Faculty": "MAT"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "59-B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "59-B",
+    "Time": "11:25",
+    "Subject": "CSE0613405",
+    "Title": "Machine Learning",
+    "Room": "5190 (512)",
+    "Faculty": "RHB"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "59-B",
+    "Time": "1:15",
+    "Subject": "CSE0613401",
+    "Title": "Software Project Management",
+    "Room": "5190 (512)",
+    "Faculty": "REH"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "59-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "59-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-A",
+    "Time": "8:45",
+    "Subject": "CSEC424 (T)",
+    "Title": null,
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "DMO"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-A",
+    "Time": "10:05",
+    "Subject": "CSEC424 (T)",
+    "Title": null,
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "DMO"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-A",
+    "Time": "2:35",
+    "Subject": "CSEC416",
+    "Title": null,
+    "Room": "Lab 5180 (511)",
+    "Faculty": "DMH"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-A",
+    "Time": "8:45",
+    "Subject": "CSEC424 (S)",
+    "Title": null,
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "DMO"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-A",
+    "Time": "10:05",
+    "Subject": "CSEC424 (S)",
+    "Title": null,
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "DMO"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-A",
+    "Time": "11:25",
+    "Subject": "CSEC416",
+    "Title": null,
+    "Room": "5080 (501)",
+    "Faculty": "DMH"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-B",
+    "Time": "10:05",
+    "Subject": "CSEC416",
+    "Title": null,
+    "Room": "5190 (512)",
+    "Faculty": "DMH"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-B",
+    "Time": "11:25",
+    "Subject": "CSEC424 (S)",
+    "Title": null,
+    "Room": "Lab 5180 (511)",
+    "Faculty": "ALD"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-B",
+    "Time": "1:15",
+    "Subject": "CSEC424 (S)",
+    "Title": null,
+    "Room": "Lab 5180 (511)",
+    "Faculty": "ALD"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-B",
+    "Time": "10:05",
+    "Subject": "CSEC416",
+    "Title": null,
+    "Room": "5080 (501)",
+    "Faculty": "DMH"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-B",
+    "Time": "11:25",
+    "Subject": "CSEC424",
+    "Title": null,
+    "Room": "Lab 5180 (511)",
+    "Faculty": "ALD"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-B",
+    "Time": "1:15",
+    "Subject": "CSEC424",
+    "Title": null,
+    "Room": "Lab 5180 (511)",
+    "Faculty": "ALD"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "58-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "58-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-C",
+    "Time": "8:45",
+    "Subject": "CSEC416",
+    "Title": null,
+    "Room": "6020 (607)",
+    "Faculty": "PRB"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-C",
+    "Time": "11:25",
+    "Subject": "CSEC424 (T)",
+    "Title": null,
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "DMH"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-C",
+    "Time": "1:15",
+    "Subject": "CSEC424 (T)",
+    "Title": null,
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "DMH"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "58-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-C",
+    "Time": "10:05",
+    "Subject": "CSEC416",
+    "Title": null,
+    "Room": "5030 (508)",
+    "Faculty": "PRB"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-C",
+    "Time": "1:15",
+    "Subject": "CSEC424",
+    "Title": null,
+    "Room": "Lab 5200 (513)",
+    "Faculty": "DMH"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-C",
+    "Time": "2:35",
+    "Subject": "CSEC424",
+    "Title": null,
+    "Room": "Lab 5200 (513)",
+    "Faculty": "DMH"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "58-C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "57-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "57-A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "57-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "57-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "57-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": "57-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "57-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "57-A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "57-A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "57-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "57-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": "57-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "57-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "57-A",
+    "Time": "10:05",
+    "Subject": "CSEC418",
+    "Title": null,
+    "Room": "5230 (516)",
+    "Faculty": "RPS"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "57-A",
+    "Time": "11:25",
+    "Subject": "CSEC416",
+    "Title": null,
+    "Room": "5230 (516)",
+    "Faculty": "DMO"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "57-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "57-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": "57-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "57-A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "57-A",
+    "Time": "10:05",
+    "Subject": "CSEC418",
+    "Title": null,
+    "Room": "5190 (512)",
+    "Faculty": "RPS"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "57-A",
+    "Time": "11:25",
+    "Subject": "CSEC416",
+    "Title": null,
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "DMO"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "57-A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "57-A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": "57-A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  }
+]

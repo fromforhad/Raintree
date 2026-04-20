@@ -1,0 +1,51 @@
+using System.Text.Json;
+using ClassData;
+using ClassModel;
+
+var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("Classes") ?? "Data Source=Classes.db";
+builder.Services.AddSqlite<ClassContext>(connectionString);
+
+builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddOpenApiDocument(config =>
+{
+    config.DocumentName = "Raintree";
+    config.Title = "Raintree v1";
+    config.Version = "v1";
+});
+builder.Services.AddCors();
+var app = builder.Build();
+if (app.Environment.IsDevelopment())
+{
+    app.UseOpenApi();
+    app.UseSwaggerUi(config =>
+    {
+        config.DocumentTitle = "Raintree";
+        config.Path = "/swagger";
+        config.DocumentPath = "/swagger/{documentName}/swagger.json";
+        config.DocExpansion = "list";
+    });
+}
+app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
+var json = File.ReadAllText(@"/home/ex900/Documents/dotnet/Raintree/Raintree/Classes.json");
+var classes = JsonSerializer.Deserialize<List<Class>>(json) ?? [];
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ClassContext>();
+    db.Database.EnsureDeleted();
+    db.Database.EnsureCreated();
+    db.Classes.AddRange(classes);
+    db.SaveChanges();
+}
+
+app.MapGet("schedule/{batch}/{day}", (string batch, string day, ClassContext db) =>
+{
+    return db.Classes
+        .Where(c => c.Batch == batch && c.Day == day)
+        .ToList();
+});
+
+app.Run("http://localhost:5000/");

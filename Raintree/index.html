@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Routine Scraper v1!</title>
+	<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"></link rel>
+</head>
+<body>
+
+<div class="container">
+<h1>Welcome to Project Raintree</h1>
+<select id="batch">
+	<option value=""></option>
+	<option value="61-A">61-A</option>
+	<option value="61-B">61-B</option>
+	<option value="61-C">61-C</option>
+	<option value="61-D">61-D</option>
+	<option value="61-E">61-E</option>
+	<option value="61-F">61-F</option>	
+</select>
+
+<select id="day">
+	<option value=""></option>
+	<option value="Monday">Monday</option>
+	<option value="Tuesday">Tuesday</option>
+	<option value="Wednesday">Wednesday</option>
+	<option value="Thursday">Thursday</option>
+</select>
+
+<button onclick="getSchedule()">Get Schedule</button>
+<p id="schedule"></p>
+</div>
+
+<script type="text/javascript">
+	function getSchedule() {
+		const batch = document.getElementById('batch').value;
+		const day = document.getElementById('day').value;
+
+		if(batch === '' && day === '') {
+		document.getElementById('schedule').innerHTML = "Please select an option.";
+		return;
+	}
+	fetch(`http://localhost:5000/schedule/${batch}/${day}`)
+		.then(response => response.json())
+		.then(data => {
+			let classes = '';
+			data.forEach (item => {
+				classes += item.day + '<br>' + item.batch + '<br>' + item.time + '<br>' + item.subject + '<br>' + item.title + '<br>' + item.room + '<br>' + item.faculty + '<br>' + '<br>'
+			});
+			document.getElementById('schedule').innerHTML = classes;
+		});
+	}
+</script>
+</body>
+</html>
