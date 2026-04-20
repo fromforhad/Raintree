@@ -29,7 +29,8 @@ if (app.Environment.IsDevelopment())
 }
 app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
-var json = File.ReadAllText(@"/home/ex900/Documents/dotnet/Raintree/Raintree/Classes.json");
+var jsonPath = Path.GetFullPath("Classes.json");
+var json = File.ReadAllText(jsonPath);
 var classes = JsonSerializer.Deserialize<List<Class>>(json) ?? [];
 
 using (var scope = app.Services.CreateScope())
@@ -48,4 +49,5 @@ app.MapGet("schedule/{batch}/{day}", (string batch, string day, ClassContext db)
         .ToList();
 });
 
-app.Run("http://localhost:5000/");
+app.Run();
+

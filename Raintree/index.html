@@ -39,7 +39,7 @@
 		document.getElementById('schedule').innerHTML = "Please select an option.";
 		return;
 	}
-	fetch(`http://localhost:5000/schedule/${batch}/${day}`)
+	fetch(`https://raintree-xnlz.onrender.com/schedule/${batch}/${day}`)
 		.then(response => response.json())
 		.then(data => {
 			let classes = '';
