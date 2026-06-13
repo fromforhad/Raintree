@@ -3,6 +3,12 @@
 <head>
 	<title>Routine Scraper v1!</title>
 	<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"></link rel>
+	<style>
+		.container {
+    padding: 16px;
+    margin: 16px;
+}
+	</style>
 </head>
 <body>
 
@@ -31,6 +37,9 @@
 </div>
 
 <script type="text/javascript">
+	const API_URL = window.location.hostname === "localhost" 
+    ? "http://localhost:5000" 
+    : "https://raintree-xnlz.onrender.com";
 	function getSchedule() {
 		const batch = document.getElementById('batch').value;
 		const day = document.getElementById('day').value;
@@ -39,7 +48,7 @@
 		document.getElementById('schedule').innerHTML = "Please select an option.";
 		return;
 	}
-	fetch(`https://raintree-xnlz.onrender.com/schedule/${batch}/${day}`)
+	fetch(`${API_URL}/schedule/${batch}/${day}`)
 		.then(response => response.json())
 		.then(data => {
 			let classes = '';

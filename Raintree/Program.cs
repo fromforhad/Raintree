@@ -42,6 +42,10 @@ using (var scope = app.Services.CreateScope())
     db.SaveChanges();
 }
 
+app.MapGet("/", () =>
+{
+    return "Welcome to Project Raintree!";
+});
 app.MapGet("schedule/{batch}/{day}", (string batch, string day, ClassContext db) =>
 {
     return db.Classes
@@ -49,5 +53,5 @@ app.MapGet("schedule/{batch}/{day}", (string batch, string day, ClassContext db)
         .ToList();
 });
 
-app.Run();
-
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+app.Run($"http://0.0.0.0:{port}");

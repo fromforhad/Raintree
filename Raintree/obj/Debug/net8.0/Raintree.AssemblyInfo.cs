@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Raintree")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cce2630c55d405ef2c0d9d2c1f2ecb3d9beb9947")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7f583913e52ece1962a7055d422493eb3b5679c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Raintree")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Raintree")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
