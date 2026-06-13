@@ -46,11 +46,14 @@ app.MapGet("/", () =>
 {
     return "Welcome to Project Raintree!";
 });
-app.MapGet("schedule/{batch}/{day}", (string batch, string day, ClassContext db) =>
+app.MapGet("/schedule/{batch}/{day}", (string batch, string day, ClassContext db) =>
 {
-    return db.Classes
+    var schedule = db.Classes
         .Where(c => c.Batch == batch && c.Day == day)
         .ToList();
+    bool isOffDay = schedule.All(c => c.Subject == null);
+    
+    return new { isOffDay, schedule };
 });
 
 var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";

@@ -37,9 +37,10 @@
 </div>
 
 <script type="text/javascript">
-	const API_URL = window.location.hostname === "localhost" 
+	const API_URL = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" 
     ? "http://localhost:5000" 
     : "https://raintree-xnlz.onrender.com";
+
 	function getSchedule() {
 		const batch = document.getElementById('batch').value;
 		const day = document.getElementById('day').value;
@@ -51,11 +52,16 @@
 	fetch(`${API_URL}/schedule/${batch}/${day}`)
 		.then(response => response.json())
 		.then(data => {
-			let classes = '';
-			data.forEach (item => {
+			if(data.isOffDay == true) {
+				document.getElementById('schedule').innerHTML = "No classes today! 🎉";
+			} else {
+				let classes = '';
+				data.schedule.forEach (item => {
 				classes += item.day + '<br>' + item.batch + '<br>' + item.time + '<br>' + item.subject + '<br>' + item.title + '<br>' + item.room + '<br>' + item.faculty + '<br>' + '<br>'
 			});
 			document.getElementById('schedule').innerHTML = classes;
+
+		}
 		});
 	}
 </script>
