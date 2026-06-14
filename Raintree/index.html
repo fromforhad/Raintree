@@ -16,20 +16,12 @@
 <h1>Welcome to Project Raintree</h1>
 <select id="batch">
 	<option value=""></option>
-	<option value="61-A">61-A</option>
-	<option value="61-B">61-B</option>
-	<option value="61-C">61-C</option>
-	<option value="61-D">61-D</option>
-	<option value="61-E">61-E</option>
-	<option value="61-F">61-F</option>	
+	<option value="61">61</option>
 </select>
 
-<select id="day">
+<select id="section">
 	<option value=""></option>
-	<option value="Monday">Monday</option>
-	<option value="Tuesday">Tuesday</option>
-	<option value="Wednesday">Wednesday</option>
-	<option value="Thursday">Thursday</option>
+	<option value="C">C</option>
 </select>
 
 <button onclick="getSchedule()">Get Schedule</button>
@@ -43,26 +35,32 @@
 
 	function getSchedule() {
 		const batch = document.getElementById('batch').value;
-		const day = document.getElementById('day').value;
+		const section = document.getElementById('section').value;
 
-		if(batch === '' && day === '') {
+		if(batch === '' && section === '') {
 		document.getElementById('schedule').innerHTML = "Please select an option.";
 		return;
 	}
-	fetch(`${API_URL}/schedule/${batch}/${day}`)
-		.then(response => response.json())
-		.then(data => {
-			if(data.isOffDay == true) {
-				document.getElementById('schedule').innerHTML = "No classes today! 🎉";
-			} else {
-				let classes = '';
-				data.schedule.forEach (item => {
-				classes += item.day + '<br>' + item.batch + '<br>' + item.time + '<br>' + item.subject + '<br>' + item.title + '<br>' + item.room + '<br>' + item.faculty + '<br>' + '<br>'
-			});
-			document.getElementById('schedule').innerHTML = classes;
 
-		}
-		});
+fetch(`${API_URL}/schedule/${batch}/${section}`)
+    .then(response => response.json())
+    .then(data => {
+
+        let classes = '';
+        data.forEach(daySchedule => {
+
+            if (daySchedule.isOffDay) {
+                classes += `<strong>${daySchedule.day}</strong>: No classes today! 🎉<hr><br>`;
+            } else {
+                daySchedule.classes.forEach(item => {
+                    classes += item.day + '<br>' + item.batch + '<br>' + item.section + '<br>' + item.time + '<br>' + item.subject + '<br>' + item.title + '<br>' + item.room + '<br>' + item.faculty + '<br>' + '<br>';
+                });
+            }
+        });
+
+        document.getElementById('schedule').innerHTML = classes;
+    });
+
 	}
 </script>
 </body>

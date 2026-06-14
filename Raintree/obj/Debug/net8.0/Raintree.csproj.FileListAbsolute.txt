@@ -151,3 +151,4 @@
 /home/ex900/Documents/dotnet/Raintree/Raintree/obj/Debug/net8.0/Raintree.pdb
 /home/ex900/Documents/dotnet/Raintree/Raintree/obj/Debug/net8.0/Raintree.genruntimeconfig.cache
 /home/ex900/Documents/dotnet/Raintree/Raintree/obj/Debug/net8.0/ref/Raintree.dll
+/home/ex900/Documents/dotnet/Raintree/Raintree/bin/Debug/net8.0/ClassSchedules 61C.json
