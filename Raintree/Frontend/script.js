@@ -1,6 +1,6 @@
 const API_URL = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
     ? "http://localhost:5000"
-    : "https://raintree-xnlz.onrender.com/";
+    : "https://raintree-xnlz.onrender.com";
 
 const CLASS_DURATION_MINUTES = 80;
 
