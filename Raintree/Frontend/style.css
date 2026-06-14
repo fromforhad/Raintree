@@ -32,11 +32,6 @@
         padding: 0;
     }
 
-    html,
-    body {
-        height: 100%;
-    }
-
     body {
         font-family: 'Roboto Flex', 'Roboto', system-ui, sans-serif;
         background: var(--md-surface);
