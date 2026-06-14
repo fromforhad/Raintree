@@ -4,50 +4,50 @@
     "Batch": 61,
     "Section": "C",
     "Time": "8:45",
-    "Subject": "CSE0613307",
-    "Title": "System Configuration and Performance Evaluation",
-    "Room": "6030 (608)",
-    "Faculty": "MRA"
+    "Subject": "CSE0613302",
+    "Title": "Web Programming Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "JNJ"
   },
   {
     "Day": "Monday",
     "Batch": 61,
     "Section": "C",
     "Time": "10:05",
-    "Subject": "CSE0612303",
-    "Title": "Data Communication",
-    "Room": "6030 (608)",
-    "Faculty": "MRA"
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
   },
   {
     "Day": "Monday",
     "Batch": 61,
     "Section": "C",
     "Time": "11:25",
-    "Subject": "CSE0612301",
-    "Title": "Database Management System",
-    "Room": "Lab 4150 (411)",
-    "Faculty": "MTQ"
+    "Subject": "CSE0613311",
+    "Title": "Artificial Intelligence",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "SAD"
   },
   {
     "Day": "Monday",
     "Batch": 61,
     "Section": "C",
     "Time": "1:15",
-    "Subject": "CSE0612301",
-    "Title": "Database Management System",
-    "Room": "6010 (606)",
-    "Faculty": "MTQ"
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
   },
   {
     "Day": "Monday",
     "Batch": 61,
     "Section": "C",
     "Time": "2:35",
-    "Subject": "CSE0613305",
-    "Title": "Automate Theory and Compiler",
-    "Room": "6020 (607)",
-    "Faculty": "MTZ"
+    "Subject": "CSE0613301",
+    "Title": "Web Programming",
+    "Room": "5060 (503)",
+    "Faculty": "JNJ"
   },
   {
     "Day": "Monday",
@@ -64,26 +64,16 @@
     "Batch": 61,
     "Section": "C",
     "Time": "8:45",
-    "Subject": "CSE0613306",
-    "Title": "Automate Theory and Compiler Lab",
-    "Room": "Lab 6150 (612)",
-    "Faculty": "MTZ"
+    "Subject": "CSE0613301",
+    "Title": "Web Programming",
+    "Room": "5060 (503)",
+    "Faculty": "JNJ"
   },
   {
     "Day": "Tuesday",
     "Batch": 61,
     "Section": "C",
     "Time": "10:05",
-    "Subject": "CSE0613306",
-    "Title": "Automate Theory and Compiler Lab",
-    "Room": "Lab 6150 (612)",
-    "Faculty": "MTZ"
-  },
-  {
-    "Day": "Tuesday",
-    "Batch": 61,
-    "Section": "C",
-    "Time": "11:25",
     "Subject": null,
     "Title": null,
     "Room": null,
@@ -93,11 +83,21 @@
     "Day": "Tuesday",
     "Batch": 61,
     "Section": "C",
+    "Time": "11:25",
+    "Subject": "CSE0613311",
+    "Title": "Artificial Intelligence",
+    "Room": "5030 (508)",
+    "Faculty": "SAD"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 61,
+    "Section": "C",
     "Time": "1:15",
-    "Subject": "CSE0612303",
-    "Title": "Data Communication",
-    "Room": "3170 (312)",
-    "Faculty": "MRA"
+    "Subject": "CSE0613303",
+    "Title": "Systems Analysis and Design",
+    "Room": "5030 (508)",
+    "Faculty": "MMH"
   },
   {
     "Day": "Tuesday",
@@ -124,20 +124,20 @@
     "Batch": 61,
     "Section": "C",
     "Time": "8:45",
-    "Subject": null,
-    "Title": null,
-    "Room": null,
-    "Faculty": null
+    "Subject": "CSE0613312",
+    "Title": "Artificial Intelligence Lab",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "SAD"
   },
   {
     "Day": "Wednesday",
     "Batch": 61,
     "Section": "C",
     "Time": "10:05",
-    "Subject": null,
-    "Title": null,
-    "Room": null,
-    "Faculty": null
+    "Subject": "CSE0613312",
+    "Title": "Artificial Intelligence Lab",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "SAD"
   },
   {
     "Day": "Wednesday",
@@ -154,10 +154,10 @@
     "Batch": 61,
     "Section": "C",
     "Time": "1:15",
-    "Subject": null,
-    "Title": null,
-    "Room": null,
-    "Faculty": null
+    "Subject": "CSE0613303",
+    "Title": "Systems Analysis and Design",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "MMH"
   },
   {
     "Day": "Wednesday",
@@ -184,10 +184,10 @@
     "Batch": 61,
     "Section": "C",
     "Time": "8:45",
-    "Subject": "CSE0613307",
-    "Title": "System Configuration and Performance Evaluation",
-    "Room": "5190 (512)",
-    "Faculty": "MRA"
+    "Subject": "CSE0613302",
+    "Title": "Web Programming Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "JNJ"
   },
   {
     "Day": "Thursday",
@@ -204,30 +204,30 @@
     "Batch": 61,
     "Section": "C",
     "Time": "11:25",
-    "Subject": "CSE0613305",
-    "Title": "Automate Theory and Compiler",
-    "Room": "6030 (608)",
-    "Faculty": "MTZ"
+    "Subject": "BUS0411301",
+    "Title": "Financial and Managerial Accounting",
+    "Room": "5060 (503)",
+    "Faculty": "MAS"
   },
   {
     "Day": "Thursday",
     "Batch": 61,
     "Section": "C",
     "Time": "1:15",
-    "Subject": "CSE0612302",
-    "Title": "Database Management System Lab",
-    "Room": "Lab 5160 (509)",
-    "Faculty": "MTQ"
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
   },
   {
     "Day": "Thursday",
     "Batch": 61,
     "Section": "C",
     "Time": "2:35",
-    "Subject": "CSE0612302",
-    "Title": "Database Management System Lab",
-    "Room": "Lab 5160 (509)",
-    "Faculty": "MTQ"
+    "Subject": "BUS0411301",
+    "Title": "Financial and Managerial Accounting",
+    "Room": "6160 (615)",
+    "Faculty": "MAS"
   },
   {
     "Day": "Thursday",
@@ -244,10 +244,10 @@
     "Batch": 61,
     "Section": "C",
     "Time": "8:45",
-    "Subject": "CSE0613307",
-    "Title": "System Configuration and Performance Evaluation",
-    "Room": "5190 (512)",
-    "Faculty": "MRA"
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
   },
   {
     "Day": "Friday",
@@ -264,30 +264,30 @@
     "Batch": 61,
     "Section": "C",
     "Time": "11:25",
-    "Subject": "CSE0613305",
-    "Title": "Automate Theory and Compiler",
-    "Room": "6030 (608)",
-    "Faculty": "MTZ"
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
   },
   {
     "Day": "Friday",
     "Batch": 61,
     "Section": "C",
     "Time": "1:15",
-    "Subject": "CSE0612302",
-    "Title": "Database Management System Lab",
-    "Room": "Lab 5160 (509)",
-    "Faculty": "MTQ"
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
   },
   {
     "Day": "Friday",
     "Batch": 61,
     "Section": "C",
     "Time": "2:35",
-    "Subject": "CSE0612302",
-    "Title": "Database Management System Lab",
-    "Room": "Lab 5160 (509)",
-    "Faculty": "MTQ"
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
   },
   {
     "Day": "Friday",
@@ -304,10 +304,10 @@
     "Batch": 61,
     "Section": "C",
     "Time": "8:45",
-    "Subject": "CSE0613307",
-    "Title": "System Configuration and Performance Evaluation",
-    "Room": "5190 (512)",
-    "Faculty": "MRA"
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
   },
   {
     "Day": "Saturday",
@@ -324,30 +324,30 @@
     "Batch": 61,
     "Section": "C",
     "Time": "11:25",
-    "Subject": "CSE0613305",
-    "Title": "Automate Theory and Compiler",
-    "Room": "6030 (608)",
-    "Faculty": "MTZ"
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
   },
   {
     "Day": "Saturday",
     "Batch": 61,
     "Section": "C",
     "Time": "1:15",
-    "Subject": "CSE0612302",
-    "Title": "Database Management System Lab",
-    "Room": "Lab 5160 (509)",
-    "Faculty": "MTQ"
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
   },
   {
     "Day": "Saturday",
     "Batch": 61,
     "Section": "C",
     "Time": "2:35",
-    "Subject": "CSE0612302",
-    "Title": "Database Management System Lab",
-    "Room": "Lab 5160 (509)",
-    "Faculty": "MTQ"
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
   },
   {
     "Day": "Saturday",
@@ -364,10 +364,10 @@
     "Batch": 61,
     "Section": "C",
     "Time": "8:45",
-    "Subject": "CSE0613307",
-    "Title": "System Configuration and Performance Evaluation",
-    "Room": "5190 (512)",
-    "Faculty": "MRA"
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
   },
   {
     "Day": "Sunday",
@@ -384,30 +384,30 @@
     "Batch": 61,
     "Section": "C",
     "Time": "11:25",
-    "Subject": "CSE0613305",
-    "Title": "Automate Theory and Compiler",
-    "Room": "6030 (608)",
-    "Faculty": "MTZ"
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
   },
   {
     "Day": "Sunday",
     "Batch": 61,
     "Section": "C",
     "Time": "1:15",
-    "Subject": "CSE0612302",
-    "Title": "Database Management System Lab",
-    "Room": "Lab 5160 (509)",
-    "Faculty": "MTQ"
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
   },
   {
     "Day": "Sunday",
     "Batch": 61,
     "Section": "C",
     "Time": "2:35",
-    "Subject": "CSE0612302",
-    "Title": "Database Management System Lab",
-    "Room": "Lab 5160 (509)",
-    "Faculty": "MTQ"
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
   },
   {
     "Day": "Sunday",
