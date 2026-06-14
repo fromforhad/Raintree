@@ -1,0 +1,272 @@
+    :root {
+        /* ---- M3 baseline tokens (pure white surface) ---- */
+        --md-primary: #415f91;
+        --md-on-primary: #ffffff;
+        --md-primary-container: #d6e3ff;
+        --md-on-primary-container: #001b3f;
+
+        --md-secondary-container: #dae2f9;
+        --md-on-secondary-container: #131c2b;
+
+        --md-tertiary: #705575;
+        --md-tertiary-container: #fbd7fb;
+        --md-on-tertiary-container: #28132e;
+
+        --md-surface: #ffffff;
+        --md-surface-container: #f3f3f8;
+        --md-surface-container-high: #e9e9ef;
+        --md-on-surface: #1a1b1f;
+        --md-on-surface-variant: #44474a;
+        --md-outline: #74777b;
+        --md-outline-variant: #c4c6cc;
+
+        --md-shape-chip: 8px;
+        --md-shape-lg: 16px;
+
+        --elev-1: 0 1px 2px rgba(0, 0, 0, 0.30), 0 1px 3px 1px rgba(0, 0, 0, 0.12);
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    body {
+        font-family: 'Roboto Flex', 'Roboto', system-ui, sans-serif;
+        background: var(--md-surface);
+        color: var(--md-on-surface);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        padding: clamp(0.75rem, 3vw, 1.75rem);
+        overflow: hidden;
+    }
+
+    /* ---- Header ---- */
+    header {
+        margin-bottom: 0.9rem;
+    }
+
+    h1 {
+        font-size: clamp(1.6rem, 5vw, 2.35rem);
+        font-weight: 700;
+        letter-spacing: -0.01em;
+        color: var(--md-primary);
+        line-height: 1.15;
+    }
+
+    .subtitle {
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: var(--md-on-surface-variant);
+        margin-top: 0.2rem;
+        min-height: 1.2rem;
+        letter-spacing: 0.02em;
+    }
+
+    /* ---- M3 filter chips (8px corner radius, not pill) ---- */
+    .chip-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 0.85rem;
+    }
+
+    .chip {
+        padding: 0.45rem 0.95rem;
+        border-radius: var(--md-shape-chip);
+        border: 1px solid var(--md-outline);
+        background: transparent;
+        color: var(--md-on-surface-variant);
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 0.875rem;
+        letter-spacing: 0.01em;
+        cursor: pointer;
+        transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+        white-space: nowrap;
+        -webkit-tap-highlight-color: transparent;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+    }
+
+    .chip:hover {
+        background: color-mix(in srgb, var(--md-on-surface-variant) 8%, transparent);
+    }
+
+    /* selected chip */
+    .chip.selected {
+        background: var(--md-secondary-container);
+        color: var(--md-on-secondary-container);
+        border-color: transparent;
+    }
+
+    .chip.selected:hover {
+        background: var(--md-secondary-container);
+    }
+
+    /* back chip, tertiary tonal */
+    .chip.back {
+        background: var(--md-tertiary-container);
+        color: var(--md-on-tertiary-container);
+        border-color: transparent;
+    }
+
+    .chip.back:hover {
+        background: color-mix(in srgb, var(--md-tertiary-container) 85%, var(--md-on-tertiary-container) 15%);
+    }
+
+    .chip .material-symbols-outlined {
+        font-size: 1.05rem;
+        line-height: 1;
+    }
+
+    .hidden {
+        display: none !important;
+    }
+
+    /* ---- Schedule surface (always present, holds placeholder/table) ---- */
+    .schedule-wrap {
+        flex: 1;
+        min-height: 0;
+        background: var(--md-surface-container);
+        border-radius: var(--md-shape-lg);
+        overflow: auto;
+        box-shadow: var(--elev-1);
+    }
+
+    /* table stretches to fill the wrap, rows share the extra space */
+    .schedule-wrap table {
+        width: 100%;
+        height: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+        font-size: clamp(0.65rem, 1.6vw, 0.82rem);
+    }
+
+    thead th {
+        background: var(--md-primary-container);
+        color: var(--md-on-primary-container);
+        font-weight: 700;
+        padding: 0.55rem 0.35rem;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        font-size: clamp(0.6rem, 1.4vw, 0.78rem);
+        letter-spacing: 0.02em;
+    }
+
+    thead th:first-child {
+        z-index: 3;
+        left: 0;
+        position: sticky;
+    }
+
+    tbody th {
+        background: var(--md-surface-container-high);
+        color: var(--md-on-surface);
+        font-weight: 700;
+        padding: 0.5rem 0.5rem;
+        text-align: center;
+        position: sticky;
+        left: 0;
+        font-size: clamp(0.65rem, 1.6vw, 0.85rem);
+        border-right: 1px solid var(--md-outline-variant);
+    }
+
+    td {
+        border: 1px solid var(--md-surface-container);
+        background: var(--md-surface);
+        padding: 0.35rem 0.3rem;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    tbody tr:nth-child(even) td:not(.off-day) {
+        background-color: color-mix(in srgb, var(--md-surface) 92%, var(--md-primary-container) 8%);
+    }
+
+    tbody tr:nth-child(even) th {
+        background-color: color-mix(in srgb, var(--md-surface-container-high) 92%, var(--md-primary-container) 8%);
+    }
+
+    /* highlight today's row, overrides alternating-row tint */
+    tbody tr.today td,
+    tbody tr.today th {
+        background-color: color-mix(in srgb, var(--md-primary-container) 45%, var(--md-surface) 55%) !important;
+    }
+
+    tbody tr.today td.off-day {
+        background-color: color-mix(in srgb, var(--md-primary-container) 25%, var(--md-surface-container) 75%) !important;
+    }
+    td.active-class {
+        background-color: color-mix(in srgb, var(--md-tertiary-container) 50%, var(--md-surface) 50%) !important;
+        border-left: 3px solid var(--md-tertiary);
+}
+    .class-cell {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        line-height: 1.25;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+
+    .class-subject {
+        font-weight: 700;
+        color: var(--md-on-surface);
+    }
+
+    .class-room {
+        color: var(--md-tertiary);
+        font-weight: 600;
+    }
+
+    .class-faculty {
+        color: var(--md-on-surface-variant);
+    }
+
+    .empty-slot {
+        color: var(--md-outline-variant);
+    }
+
+    .off-day {
+        color: var(--md-on-surface-variant);
+        font-style: italic;
+        background: var(--md-surface-container);
+    }
+
+    /* ---- Footer: fixed at the bottom, never shifts ---- */
+    footer {
+        flex-shrink: 0;
+        text-align: center;
+        font-size: 0.75rem;
+        color: var(--md-on-surface-variant);
+        padding-top: 0.6rem;
+        letter-spacing: 0.02em;
+    }
+
+    footer a {
+        color: var(--md-primary);
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    /* ---- Placeholder / loading message ---- */
+    .message {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        color: var(--md-on-surface-variant);
+        font-size: 0.95rem;
+        padding: 1rem;
+        text-align: center;
+    }
