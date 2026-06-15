@@ -2,6 +2,7 @@
 /home/ex900/Documents/dotnet/Raintree/Raintree/bin/Release/net8.0/publish/appsettings.Development.json
 /home/ex900/Documents/dotnet/Raintree/Raintree/bin/Release/net8.0/publish/appsettings.json
 /home/ex900/Documents/dotnet/Raintree/Raintree/bin/Release/net8.0/publish/Classes.json
+/home/ex900/Documents/dotnet/Raintree/Raintree/bin/Release/net8.0/publish/ClassSchedules 61C.json
 /home/ex900/Documents/dotnet/Raintree/Raintree/bin/Release/net8.0/publish/Raintree.dll
 /home/ex900/Documents/dotnet/Raintree/Raintree/bin/Release/net8.0/publish/Raintree.runtimeconfig.json
 /home/ex900/Documents/dotnet/Raintree/Raintree/bin/Release/net8.0/publish/Raintree.pdb

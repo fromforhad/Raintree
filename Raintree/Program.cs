@@ -17,6 +17,10 @@ builder.Services.AddOpenApiDocument(config =>
 });
 builder.Services.AddCors();
 var app = builder.Build();
+
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseOpenApi();
@@ -47,10 +51,7 @@ using (var scope = app.Services.CreateScope())
     db.SaveChanges();
 }
 
-app.MapGet("/", () =>
-{
-    return "Welcome to Project Raintree!";
-});
+// app.MapGet("/", () => { return "Welcome to Project Raintree!"; });
 
 // filter routine by batch and section
 app.MapGet("/schedule/{batch}/{section}", (int batch, char section, ClassContext db) =>
@@ -73,6 +74,7 @@ app.MapGet("/schedule/{batch}/{section}", (int batch, char section, ClassContext
     return finalSchedule;
 });
 
+app.MapFallbackToFile("index.html");
 // run the program in both dev and prod environment
 var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
 app.Run($"http://0.0.0.0:{port}");

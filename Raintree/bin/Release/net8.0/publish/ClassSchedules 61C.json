@@ -1,0 +1,422 @@
+[
+  {
+    "Day": "Monday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "8:45",
+    "Subject": "CSE0613302",
+    "Title": "Web Programming Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "JNJ"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "11:25",
+    "Subject": "CSE0613311",
+    "Title": "Artificial Intelligence",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "SAD"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "2:35",
+    "Subject": "CSE0613301",
+    "Title": "Web Programming",
+    "Room": "5060 (503)",
+    "Faculty": "JNJ"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "8:45",
+    "Subject": "CSE0613301",
+    "Title": "Web Programming",
+    "Room": "5060 (503)",
+    "Faculty": "JNJ"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "11:25",
+    "Subject": "CSE0613311",
+    "Title": "Artificial Intelligence",
+    "Room": "5030 (508)",
+    "Faculty": "SAD"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "1:15",
+    "Subject": "CSE0613303",
+    "Title": "Systems Analysis and Design",
+    "Room": "5030 (508)",
+    "Faculty": "MMH"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "8:45",
+    "Subject": "CSE0613312",
+    "Title": "Artificial Intelligence Lab",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "SAD"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "10:05",
+    "Subject": "CSE0613312",
+    "Title": "Artificial Intelligence Lab",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "SAD"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "1:15",
+    "Subject": "CSE0613303",
+    "Title": "Systems Analysis and Design",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "MMH"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+    {
+    "Day": "Thursday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "8:45",
+    "Subject": "CSE0613302",
+    "Title": "Web Programming Lab",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "JNJ"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "11:25",
+    "Subject": "BUS0411301",
+    "Title": "Financial and Managerial Accounting",
+    "Room": "5060 (503)",
+    "Faculty": "MAS"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "2:35",
+    "Subject": "BUS0411301",
+    "Title": "Financial and Managerial Accounting",
+    "Room": "6160 (615)",
+    "Faculty": "MAS"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+    {
+    "Day": "Friday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Friday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Friday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Friday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Friday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Friday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Sunday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Sunday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Sunday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Sunday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Sunday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Sunday",
+    "Batch": 61,
+    "Section": "C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  }
+]

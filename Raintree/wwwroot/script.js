@@ -1,5 +1,8 @@
+// run the code in web, pc, and phone - all at once
 const API_URL = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
     ? "http://localhost:5000"
+    : (window.location.hostname.startsWith("192.168.") || window.location.hostname.startsWith("10.0."))
+    ? `http://${window.location.hostname}:5000`
     : "https://raintree-xnlz.onrender.com";
 
 const CLASS_DURATION_MINUTES = 80;
@@ -59,6 +62,7 @@ function init() {
     renderBatches();
 
     if (lastBatch && lastSection) {
+        batchRow.classList.add('hidden');
         renderSections(Number(lastBatch));
         loadSchedule(lastBatch, lastSection);
     }
