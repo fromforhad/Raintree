@@ -155,8 +155,10 @@
 /home/ex900/Documents/dotnet/Raintree/obj/Debug/net8.0/ref/Raintree.dll
 /home/ex900/Documents/dotnet/Raintree/Raintree/bin/Debug/net8.0/appsettings.Development.json
 /home/ex900/Documents/dotnet/Raintree/Raintree/bin/Debug/net8.0/appsettings.json
-/home/ex900/Documents/dotnet/Raintree/Raintree/bin/Debug/net8.0/Classes.json
-/home/ex900/Documents/dotnet/Raintree/Raintree/bin/Debug/net8.0/ClassSchedules 61C.json
+/home/ex900/Documents/dotnet/Raintree/Raintree/bin/Debug/net8.0/Routine/BSC in CSE Routine Summer 2026 v1.json
+/home/ex900/Documents/dotnet/Raintree/Raintree/bin/Debug/net8.0/Routine/Classes old.json
+/home/ex900/Documents/dotnet/Raintree/Raintree/bin/Debug/net8.0/Routine/ClassSchedules 61C.json
+/home/ex900/Documents/dotnet/Raintree/Raintree/bin/Debug/net8.0/Routine/Summer 2026.json
 /home/ex900/Documents/dotnet/Raintree/Raintree/bin/Debug/net8.0/Raintree.staticwebassets.runtime.json
 /home/ex900/Documents/dotnet/Raintree/Raintree/bin/Debug/net8.0/Raintree.staticwebassets.endpoints.json
 /home/ex900/Documents/dotnet/Raintree/Raintree/bin/Debug/net8.0/Raintree

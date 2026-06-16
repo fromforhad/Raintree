@@ -23,7 +23,7 @@
     --md-shape-chip: 8px;
     --md-shape-lg: 16px;
 
-    --elev-1: 0 1px 2px rgba(0, 0, 0, 0.30), 0 1px 3px 1px rgba(0, 0, 0, 0.12);
+    --elev-1: 0 1px 2px rgba(0, 0, 0, 0.15), 0 1px 3px rgba(5, 60, 225, 0.12);
 }
 
 * {
@@ -232,6 +232,7 @@ td.active-class {
     color: var(--md-on-surface);
     display: -webkit-box;
     -webkit-line-clamp: 3;
+    line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -281,4 +282,39 @@ footer a {
     font-size: 0.95rem;
     padding: 1rem;
     text-align: center;
+}
+
+/* Changes the block from a giant vertical table container to a compact row */
+.callout-flex {
+    flex: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.85rem;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.9rem;
+}
+
+/* Sets the PDF icon size */
+.callout-icon-size {
+    font-size: 1.5rem;
+    user-select: none;
+}
+
+/* Resets the margins and heights inherited from your global .subtitle class */
+.callout-text-reset {
+    margin: 0;
+    min-height: 0;
+}
+
+/* Styles the link using your primary theme token */
+.callout-link {
+    color: var(--md-primary);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.9rem;
+    width: max-content;
+}
+
+.callout-link:hover {
+    text-decoration: underline;
 }

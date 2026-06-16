@@ -1,9 +1,10 @@
 using System.Text.Json;
+using System.Threading.RateLimiting;
 using ClassData;
 using ClassModel;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("Classes") ?? "Data Source=Classes.db";
+var connectionString = builder.Configuration.GetConnectionString("Routine") ?? "Data Source=Routine.db";
 builder.Services.AddSqlite<ClassContext>(connectionString);
 
 // enable swagger environment
@@ -15,9 +16,28 @@ builder.Services.AddOpenApiDocument(config =>
     config.Title = "Raintree v1";
     config.Version = "v1";
 });
+
+// rate limiting
+builder.Services.AddRateLimiter(options =>
+{
+    options.GlobalLimiter = PartitionedRateLimiter.Create<HttpContext, string>(context =>
+    {
+        var ip = context.Connection.RemoteIpAddress?.ToString() ?? "unknown";
+        return RateLimitPartition.GetFixedWindowLimiter(ip, _ => new FixedWindowRateLimiterOptions
+        {
+            Window = TimeSpan.FromMinutes(1),
+            PermitLimit = 30,
+            QueueLimit = 0
+        });
+    });
+
+    options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
+});
+
 builder.Services.AddCors();
 var app = builder.Build();
 
+app.UseRateLimiter();
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
@@ -37,7 +57,7 @@ if (app.Environment.IsDevelopment())
 app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
 // read the JSON file and make it usable
-var jsonPath = Path.GetFullPath("ClassSchedules 61C.json");
+var jsonPath = Path.GetFullPath("Routine/BSC in CSE Routine Summer 2026 v1.json");
 var json = File.ReadAllText(jsonPath);
 var classes = JsonSerializer.Deserialize<List<Class>>(json) ?? [];
 

@@ -1,0 +1,1802 @@
+[
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "8:45",
+    "Subject": "CSE0613102",
+    "Title": "Structured Programming Language Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "DMO"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "10:05",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "5030 (508)",
+    "Faculty": "AMU"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "1:15",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": "Lab 6180 (613)",
+    "Faculty": "SZC"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "2:35",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "SZC"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "3:55",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "5060 (503)",
+    "Faculty": "SZC"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "10:05",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "5070 (502)",
+    "Faculty": "AMU"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "1:15",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "6160 (615)",
+    "Faculty": "SZC"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "2:35",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "5020 (507)",
+    "Faculty": "DMO"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "2:35",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "5080 (501)",
+    "Faculty": "SZC"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "3:55",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "5070 (502)",
+    "Faculty": "DMO"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "A",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "8:45",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "RIR"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "10:05",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "6030 (608)",
+    "Faculty": "MI"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "11:25",
+    "Subject": "CSE0613102",
+    "Title": "Structured Programming Language Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "MI"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "3:55",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "6170 (614)",
+    "Faculty": "AMU"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "8:45",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "5020 (507)",
+    "Faculty": "MI"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "10:05",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "6020 (607)",
+    "Faculty": "RIR"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "11:25",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "RIR"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "1:15",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "6020 (607)",
+    "Faculty": "RIR"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "3:55",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "5070 (502)",
+    "Faculty": "AMU"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "B",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "10:05",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "5030 (508)",
+    "Faculty": "TTA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "11:25",
+    "Subject": "CSE0613102",
+    "Title": "Structured Programming Language Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "MMA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "3:55",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "5070 (502)",
+    "Faculty": "MMA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "8:45",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "TTA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "10:05",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "6170 (614)",
+    "Faculty": "MBH"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "1:15",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "5030 (508)",
+    "Faculty": "TTA"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "2:35",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": "5070 (502)",
+    "Faculty": "TTA"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "3:55",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "5060 (503)",
+    "Faculty": "MMA"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "8:45",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "6020 (607)",
+    "Faculty": "MBH"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "C",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "10:05",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "5060 (503)",
+    "Faculty": "ECR"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "1:15",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": "Lab 6180 (613)",
+    "Faculty": "ECR"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "3:55",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "5030 (508)",
+    "Faculty": "MBH"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "8:45",
+    "Subject": "CSE0613102",
+    "Title": "Structured Programming Language Lab",
+    "Room": "AI Lab 5210 (514)",
+    "Faculty": "MMA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "10:05",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "5190 (512)",
+    "Faculty": "MMA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "11:25",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "5030 (508)",
+    "Faculty": "MBH"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "1:15",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "Lab 6180 (613)",
+    "Faculty": "ECR"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "2:35",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "6030 (608)",
+    "Faculty": "MMA"
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "3:55",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "ECR"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "D",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "3:55",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "Lab 5220 (515)",
+    "Faculty": "SNS"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "10:05",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "5020 (507)",
+    "Faculty": "TBA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "11:25",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "6030 (608)",
+    "Faculty": "SNS"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "1:15",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "6170 (614)",
+    "Faculty": "SZC"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "2:35",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "5080 (501)",
+    "Faculty": "SZC"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "3:55",
+    "Subject": "CSE0613102",
+    "Title": "Structured Programming Language Lab",
+    "Room": "Lab 5160 (509)",
+    "Faculty": "SNS"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "10:05",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "5080 (501)",
+    "Faculty": "TBA"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "11:25",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "SZC"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "1:15",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": "Lab 5180 (511)",
+    "Faculty": "SZC"
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "E",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "8:45",
+    "Subject": "CSE0613102",
+    "Title": "Structured Programming Language Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "TBA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "10:05",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "5230 (516)",
+    "Faculty": "TBA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "1:15",
+    "Subject": "ENG0232101",
+    "Title": "Communicative English",
+    "Room": "6160 (615)",
+    "Faculty": "TBA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "2:35",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "6170 (614)",
+    "Faculty": "TBA"
+  },
+  {
+    "Day": "Monday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "8:45",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "5030 (508)",
+    "Faculty": "TBA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "10:05",
+    "Subject": "ENG0232102",
+    "Title": "Communicative English Lab",
+    "Room": "Lab 5200 (513)",
+    "Faculty": "TBA(ENG)"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "11:25",
+    "Subject": "CSE0613101",
+    "Title": "Structured Programming Language",
+    "Room": "Lab 6150 (612)",
+    "Faculty": "TBA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "1:15",
+    "Subject": "MAT0541101",
+    "Title": "Differential & Integral Calculus",
+    "Room": "5070 (502)",
+    "Faculty": "TBA"
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Tuesday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Wednesday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Thursday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "8:45",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "10:05",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "11:25",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "1:15",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "2:35",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  },
+  {
+    "Day": "Saturday",
+    "Batch": 67,
+    "Section": "F",
+    "Time": "3:55",
+    "Subject": null,
+    "Title": null,
+    "Room": null,
+    "Faculty": null
+  }
+]

@@ -170,7 +170,7 @@ function buildScheduleTable(data) {
                 if (item && item.subject) {
                     html += `<td class="${activeClass.trim()}">
             <div class="class-cell">
-            <span class="class-subject">${item.title || item.subject}</span>
+            <span class="class-subject">${(item.title || item.subject).replace(/\band\b/gi, '&')}</span>
             <span class="class-room">${item.room || ''}</span>
             <span class="class-faculty">${item.faculty || ''}</span>
             </div>
