@@ -170,7 +170,7 @@ function buildScheduleTable(data) {
                 if (item && item.subject) {
                     html += `<td class="${activeClass.trim()}">
             <div class="class-cell">
-            <span class="class-subject">${(item.title || item.subject).replace(/\band\b/gi, '&')}</span>
+            <span class="class-subject">${item.title || item.subject}</span>
             <span class="class-room">${item.room || ''}</span>
             <span class="class-faculty">${item.faculty || ''}</span>
             </div>
@@ -190,7 +190,7 @@ function buildScheduleTable(data) {
 
 init();
 
-// service worker to install as PWA
+// Service worker to install as PWA
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('./sw.js')
