@@ -1,0 +1,22 @@
+{
+    "name": "University Class Scheduler",
+    "short_name": "Raintree",
+    "description": "View class schedules quickly, even offline.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#415f91",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "../Assets/Icons/leaf192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "../Assets/Icons/leaf512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

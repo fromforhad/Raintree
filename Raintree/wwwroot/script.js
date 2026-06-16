@@ -1,9 +1,9 @@
-// run the code in web, pc, and phone - all at once
+// Run the code in web, pc, and phone - all at once
 const API_URL = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
     ? "http://localhost:5000"
     : (window.location.hostname.startsWith("192.168.") || window.location.hostname.startsWith("10.0."))
-    ? `http://${window.location.hostname}:5000`
-    : "https://raintree-xnlz.onrender.com";
+        ? `http://${window.location.hostname}:5000`
+        : "https://raintree-xnlz.onrender.com";
 
 const CLASS_DURATION_MINUTES = 80;
 
@@ -29,7 +29,7 @@ function getActiveSlotIndex() {
     }
     return -1;
 }
-const TIME_SLOTS = ["8:45", "10:05", "11:25", "1:15", "2:35", "3:55"]; // must match JSON "time" values exactly
+const TIME_SLOTS = ["8:45", "10:05", "11:25", "1:15", "2:35", "3:55"];
 
 // Each batch maps to its own list of sections
 const BATCH_SECTIONS = {
@@ -188,5 +188,13 @@ function buildScheduleTable(data) {
     return html;
 }
 
-
 init();
+
+// service worker to install as PWA
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+            .then(reg => console.log('Service Worker registered successfully!', reg.scope))
+            .catch(err => console.error('Service Worker registration failed:', err));
+    });
+}
