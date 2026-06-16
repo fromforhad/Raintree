@@ -34,9 +34,26 @@ builder.Services.AddRateLimiter(options =>
     options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
 });
 
-builder.Services.AddCors();
+// enable cross origin resource sharing for prod and dev only 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("FrontendPolicy", policy =>
+    {
+        policy.AllowAnyMethod()
+            .AllowAnyHeader()
+            .SetIsOriginAllowed(origin =>
+            {
+                if (origin == "https://raintree-xnlz.onrender.com") return true;
+                if (origin.StartsWith("http://localhost") || origin.StartsWith("http://127.0.0.1")) return true;
+                if (origin.StartsWith("http://192.168.") || origin.StartsWith("http://10.0.")) return true;
+                return false;
+            });
+    });
+});
+
 var app = builder.Build();
 
+app.UseCors("FrontendPolicy");
 app.UseRateLimiter();
 app.UseDefaultFiles();
 app.UseStaticFiles();
@@ -52,9 +69,6 @@ if (app.Environment.IsDevelopment())
         config.DocExpansion = "list";
     });
 }
-
-// enable cross origin resource sharing 
-app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
 // read the JSON file and make it usable
 var jsonPath = Path.GetFullPath("Routine/BSC in CSE Routine Summer 2026 v1.json");
@@ -72,8 +86,10 @@ using (var scope = app.Services.CreateScope())
 }
 
 // app.MapGet("/", () => { return "Welcome to Project Raintree!"; });
+// For keeping the program alive via Github Workers
+app.MapGet("/uptime", () => { return "Raintree: all system's operational."; });
 
-// filter routine by batch and section
+// Filter routine by batch and section
 app.MapGet("/schedule/{batch}/{section}", (int batch, char section, ClassContext db) =>
 {
     var allSchedule = db.Classes
@@ -93,6 +109,7 @@ app.MapGet("/schedule/{batch}/{section}", (int batch, char section, ClassContext
 
     return finalSchedule;
 });
+
 
 app.MapFallbackToFile("index.html");
 // run the program in both dev and prod environment
