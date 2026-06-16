@@ -44,6 +44,7 @@ builder.Services.AddCors(options =>
             .SetIsOriginAllowed(origin =>
             {
                 if (origin == "https://raintree-xnlz.onrender.com") return true;
+                if (origin == "https://raintree-vidz.onrender.com") return true;
                 if (origin.StartsWith("http://localhost") || origin.StartsWith("http://127.0.0.1")) return true;
                 if (origin.StartsWith("http://192.168.") || origin.StartsWith("http://10.0.")) return true;
                 return false;
