@@ -1,13 +1,13 @@
 // service worker 
 const CACHE_NAME = 'scheduler-v1';
 const ASSETS = [
-    './',
+    '/',
     './index.html',
     './style.css',
     './script.js',
     './manifest.json',
-    '../Assets/Icons/leaf192.png',
-    '../Assets/Icons/leaf512.png',
+    './Assets/Icons/leaf192.png',
+    './Assets/Icons/leaf512.png',
 ];
 
 // Install Service Worker and cache core structural assets
