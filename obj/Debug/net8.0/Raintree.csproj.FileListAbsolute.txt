@@ -1,0 +1,9 @@
+/home/ex900/Documents/dotnet/Raintree/obj/Debug/net8.0/Raintree.csproj.AssemblyReference.cache
+/home/ex900/Documents/dotnet/Raintree/obj/Debug/net8.0/rpswa.dswa.cache.json
+/home/ex900/Documents/dotnet/Raintree/obj/Debug/net8.0/Raintree.GeneratedMSBuildEditorConfig.editorconfig
+/home/ex900/Documents/dotnet/Raintree/obj/Debug/net8.0/Raintree.AssemblyInfoInputs.cache
+/home/ex900/Documents/dotnet/Raintree/obj/Debug/net8.0/Raintree.AssemblyInfo.cs
+/home/ex900/Documents/dotnet/Raintree/obj/Debug/net8.0/Raintree.csproj.CoreCompileInputs.cache
+/home/ex900/Documents/dotnet/Raintree/obj/Debug/net8.0/Raintree.MvcApplicationPartsAssemblyInfo.cs
+/home/ex900/Documents/dotnet/Raintree/obj/Debug/net8.0/Raintree.MvcApplicationPartsAssemblyInfo.cache
+/home/ex900/Documents/dotnet/Raintree/obj/Debug/net8.0/Raintree.sourcelink.json
