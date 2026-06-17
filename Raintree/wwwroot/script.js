@@ -90,7 +90,7 @@ function renderSections(batch) {
 
     const back = document.createElement('button');
     back.className = 'chip back';
-    back.innerHTML = '<span class="material-symbols-outlined">arrow_back</span>' + batch;
+    back.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>' + batch;
     back.onclick = () => {
         batchRow.classList.remove('hidden');
         sectionRow.classList.add('hidden');

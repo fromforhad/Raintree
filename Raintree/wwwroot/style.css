@@ -33,7 +33,7 @@
 }
 
 body {
-    font-family: 'Roboto Flex', 'Roboto', system-ui, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, system-ui;
     background: var(--md-surface);
     color: var(--md-on-surface);
     min-height: 100vh;
@@ -145,7 +145,6 @@ h1 {
     display: none;
 }
 
-
 .schedule-wrap table {
     width: max-content;
     min-width: 100%;
@@ -157,7 +156,8 @@ h1 {
 
 .schedule-wrap th,
 .schedule-wrap td {
-    min-width: 52px;
+    min-width: 80px;
+    padding: 0.65rem;
 }
 
 thead th:first-child,
@@ -201,7 +201,7 @@ td {
     padding: 0.35rem 0.3rem;
     text-align: center;
     vertical-align: middle;
-    max-width: 88px;
+    max-width: 120px;
 }
 
 tbody tr:nth-child(even) td:not(.off-day) {
