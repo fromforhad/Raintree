@@ -89,8 +89,8 @@ function renderBatches() {
     const refreshBtn = document.createElement('button');
     refreshBtn.className = 'chip back'; // Reusing your 'back' chip theme color for differentiation
     refreshBtn.title = 'Force refresh';  // Tooltip backup
-    refreshBtn.innerHTML = `<span>↻</span> <span>Refresh</span>`;    
-    
+    refreshBtn.innerHTML = `<span>↻</span> <span>Refresh</span>`;
+
     refreshBtn.onclick = () => {
         // Clear all cached routines
         Object.keys(localStorage)
@@ -152,24 +152,35 @@ function loadSchedule(batch, section) {
     scheduleMessage.textContent = 'Loading schedule...';
     scheduleWrap.appendChild(scheduleMessage);
 
-    // --- CACHING LOGIC START ---
     const cacheKey = `schedule_data_${batch}_${section}`;
     const cachedData = localStorage.getItem(cacheKey);
 
+    // 1. PRIORITIZE CACHE FIRST (Essential for offline PWA standalone launches)
     if (cachedData) {
         console.log(`Serving schedule for ${batch}-${section} from frontend cache.`);
         scheduleWrap.innerHTML = buildScheduleTable(JSON.parse(cachedData));
+
+        // If the student has data/Wi-Fi, silently look for updates in the background!
+        if (navigator.onLine) {
+            fetchSilentUpdate(batch, section, cacheKey);
+        }
         return;
     }
-    // --- CACHING LOGIC END ---
 
-    // Fetch from network if cache is empty
+    // 2. FALLBACK TO NETWORK (Only if this routine has never been opened before)
+    fetchFromNetwork(batch, section, cacheKey);
+}
+
+// Separate helper to pull clean data from the server and commit it to storage
+function fetchFromNetwork(batch, section, cacheKey) {
     fetch(`${API_URL}/schedule/${batch}/${section}`)
         .then(response => {
             if (!response.ok) throw new Error('Network response was not ok');
             return response.json();
         })
         .then(data => {
+            // Save it to localStorage so it works offline going forward!
+            localStorage.setItem(cacheKey, JSON.stringify(data));
             scheduleWrap.innerHTML = buildScheduleTable(data);
         })
         .catch(err => {
@@ -178,6 +189,22 @@ function loadSchedule(batch, section) {
             scheduleWrap.appendChild(scheduleMessage);
             console.error(err);
         });
+}
+
+// Background worker to check if room numbers/classes changed while online
+function fetchSilentUpdate(batch, section, cacheKey) {
+    fetch(`${API_URL}/schedule/${batch}/${section}`)
+        .then(response => {
+            if (response.ok) return response.json();
+        })
+        .then(data => {
+            if (data) {
+                localStorage.setItem(cacheKey, JSON.stringify(data));
+                // Silently refresh the visual grid without flash interruptions
+                scheduleWrap.innerHTML = buildScheduleTable(data);
+            }
+        })
+        .catch(() => console.log("Silent update skipped (offline mode)."));
 }
 
 function buildScheduleTable(data) {
