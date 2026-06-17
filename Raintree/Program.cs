@@ -51,10 +51,17 @@ builder.Services.AddCors(options =>
     });
 });
 
+// Add Output Caching services
+builder.Services.AddOutputCache(options =>
+{
+    options.AddBasePolicy(builder => builder.Expire(TimeSpan.FromHours(12)));
+});
+
 var app = builder.Build();
 
 app.UseCors("FrontendPolicy");
 app.UseRateLimiter();
+app.UseOutputCache();
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
@@ -108,7 +115,7 @@ app.MapGet("/schedule/{batch}/{section}", (int batch, char section, ClassContext
         .ToList();
 
     return finalSchedule;
-});
+}).CacheOutput();
 
 
 app.MapFallbackToFile("index.html");

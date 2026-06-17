@@ -117,11 +117,6 @@ h1 {
     background: color-mix(in srgb, var(--md-tertiary-container) 85%, var(--md-on-tertiary-container) 15%);
 }
 
-.chip .material-symbols-outlined {
-    font-size: 1.05rem;
-    line-height: 1;
-}
-
 .hidden {
     display: none !important;
 }
@@ -134,8 +129,10 @@ h1 {
     border-radius: var(--md-shape-chip);
     overflow-x: auto;
     overflow-y: visible;
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
     box-shadow: var(--elev-1);
     display: flex;
     flex-direction: column;
@@ -158,6 +155,11 @@ h1 {
 .schedule-wrap td {
     min-width: 80px;
     padding: 0.65rem;
+}
+
+.schedule-icon {
+    font-size: 1.3rem;
+    user-select: none;
 }
 
 thead th:first-child,
@@ -221,10 +223,12 @@ tbody tr.today th {
 tbody tr.today td.off-day {
     background-color: color-mix(in srgb, var(--md-primary-container) 25%, var(--md-surface-container) 75%) !important;
 }
+
 td.active-class {
     background-color: color-mix(in srgb, var(--md-tertiary-container) 50%, var(--md-surface) 50%) !important;
     border-left: 3px solid var(--md-tertiary);
 }
+
 .class-cell {
     display: flex;
     flex-direction: column;

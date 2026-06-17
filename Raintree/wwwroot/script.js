@@ -70,6 +70,8 @@ function init() {
 
 function renderBatches() {
     batchRow.innerHTML = '';
+
+    // Render all your standard batch number chips
     BATCHES.forEach(batch => {
         const btn = document.createElement('button');
         btn.className = 'chip';
@@ -82,6 +84,24 @@ function renderBatches() {
         };
         batchRow.appendChild(btn);
     });
+
+    // Append the blended Refresh Button at the very end of the row
+    const refreshBtn = document.createElement('button');
+    refreshBtn.className = 'chip back'; // Reusing your 'back' chip theme color for differentiation
+    refreshBtn.title = 'Force refresh';  // Tooltip backup
+    refreshBtn.innerHTML = `<span>↻</span> <span>Refresh</span>`;    
+    
+    refreshBtn.onclick = () => {
+        // Clear all cached routines
+        Object.keys(localStorage)
+            .filter(key => key.startsWith('schedule_data_'))
+            .forEach(key => localStorage.removeItem(key));
+
+        // Reload to fetch fresh data
+        window.location.reload();
+    };
+
+    batchRow.appendChild(refreshBtn);
 }
 
 function renderSections(batch) {
@@ -90,12 +110,14 @@ function renderSections(batch) {
 
     const back = document.createElement('button');
     back.className = 'chip back';
-    back.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>' + batch;
+    back.innerHTML = `<span><</span> <span>${batch}</span>`;
+
     back.onclick = () => {
         batchRow.classList.remove('hidden');
         sectionRow.classList.add('hidden');
         subtitle.textContent = 'Select your batch';
     };
+
     sectionRow.appendChild(back);
 
     const sections = BATCH_SECTIONS[batch] || [];
@@ -130,6 +152,18 @@ function loadSchedule(batch, section) {
     scheduleMessage.textContent = 'Loading schedule...';
     scheduleWrap.appendChild(scheduleMessage);
 
+    // --- CACHING LOGIC START ---
+    const cacheKey = `schedule_data_${batch}_${section}`;
+    const cachedData = localStorage.getItem(cacheKey);
+
+    if (cachedData) {
+        console.log(`Serving schedule for ${batch}-${section} from frontend cache.`);
+        scheduleWrap.innerHTML = buildScheduleTable(JSON.parse(cachedData));
+        return;
+    }
+    // --- CACHING LOGIC END ---
+
+    // Fetch from network if cache is empty
     fetch(`${API_URL}/schedule/${batch}/${section}`)
         .then(response => {
             if (!response.ok) throw new Error('Network response was not ok');
