@@ -32,3 +32,10 @@ self.addEventListener('fetch', event => {
         })
     );
 });
+
+// Listen for the skipWaiting message from script.js
+self.addEventListener('message', (event) => {
+    if (event.data && event.data.action === 'skipWaiting') {
+        self.skipWaiting();
+    }
+});
