@@ -1,7 +1,7 @@
-// service worker 
-const CACHE_NAME = 'scheduler-v1';
+const CACHE_NAME = 'raintree-v2';
+
 const ASSETS = [
-    '/',
+    './',
     './index.html',
     './style.css',
     './script.js',
@@ -10,32 +10,42 @@ const ASSETS = [
     './Assets/Icons/leaf512.png',
 ];
 
-// Install Service Worker and cache core structural assets
+// Install cache assets and skip waiting immediately
 self.addEventListener('install', event => {
     event.waitUntil(
-        caches.open(CACHE_NAME).then(cache => {
-            return cache.addAll(ASSETS);
-        })
+        caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS))
     );
+    self.skipWaiting();
 });
 
-// Activate Service Worker
+// Activate delete ALL old caches, then claim open tabs immediately
 self.addEventListener('activate', event => {
-    console.log('Service Worker Activated');
-});
-
-// Fetch network strategy: Serve from cache first, fall back to network
-self.addEventListener('fetch', event => {
-    event.respondWith(
-        caches.match(event.request).then(cachedResponse => {
-            return cachedResponse || fetch(event.request);
-        })
+    event.waitUntil(
+        caches.keys().then(keys =>
+            Promise.all(
+                keys
+                    .filter(key => key !== CACHE_NAME)
+                    .map(key => caches.delete(key))
+            )
+        )
     );
+    self.clients.claim();
 });
 
-// Listen for the skipWaiting message from script.js
-self.addEventListener('message', (event) => {
-    if (event.data && event.data.action === 'skipWaiting') {
-        self.skipWaiting();
+// Fetch strategy
+// - HTML pages: network-first (always try fresh, fall back to cache if offline)
+// - Everything else: cache-first (CSS, JS, icons load instantly)
+self.addEventListener('fetch', event => {
+    if (event.request.mode === 'navigate') {
+        event.respondWith(
+            fetch(event.request)
+                .catch(() => caches.match('./index.html'))
+        );
+        return;
     }
+
+    event.respondWith(
+        caches.match(event.request)
+            .then(cached => cached || fetch(event.request))
+    );
 });

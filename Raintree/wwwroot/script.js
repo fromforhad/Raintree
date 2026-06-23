@@ -257,19 +257,6 @@ if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('./sw.js')
             .then(reg => {
                 console.log('Service Worker registered successfully!', reg.scope);
-
-                // Check for updates every time the app opens
-                reg.addEventListener('updatefound', () => {
-                    const newWorker = reg.installing;
-                    newWorker.addEventListener('statechange', () => {
-                        // If a new service worker has finished installing, activate it!
-                        if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                            console.log('New update available! Swapping files...');
-                            // Tell the new service worker to take control instantly
-                            newWorker.postMessage({ action: 'skipWaiting' });
-                        }
-                    });
-                });
             })
             .catch(err => console.error('Service Worker registration failed:', err));
     });
