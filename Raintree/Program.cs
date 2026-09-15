@@ -1,13 +1,14 @@
+using System.Data.Common;
 using System.Text.Json;
 using System.Threading.RateLimiting;
 using ClassData;
-using ClassModel;
+using Raintree.Models.Daily;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("Routine") ?? "Data Source=Routine.db";
-builder.Services.AddSqlite<ClassContext>(connectionString);
+builder.Services.AddSqlite<ScheduleDbContext>(connectionString);
 
-// enable swagger environment
+// Enable swagger environment
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddOpenApiDocument(config =>
@@ -17,7 +18,7 @@ builder.Services.AddOpenApiDocument(config =>
     config.Version = "v1";
 });
 
-// rate limiting
+// Rate limiting
 builder.Services.AddRateLimiter(options =>
 {
     options.GlobalLimiter = PartitionedRateLimiter.Create<HttpContext, string>(context =>
@@ -34,7 +35,7 @@ builder.Services.AddRateLimiter(options =>
     options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
 });
 
-// enable cross origin resource sharing for prod and dev only 
+// Enable CORS for only production and development environment 
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("FrontendPolicy", policy =>
@@ -51,12 +52,13 @@ builder.Services.AddCors(options =>
     });
 });
 
-// Add Output Caching services
+// Add output caching services
 builder.Services.AddOutputCache(options =>
 {
     options.AddBasePolicy(builder => builder.Expire(TimeSpan.FromHours(12)));
 });
 
+// Builds the app
 var app = builder.Build();
 
 app.UseCors("FrontendPolicy");
@@ -77,27 +79,27 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-// read the JSON file and make it usable
-var jsonPath = Path.GetFullPath("Routine/BSC in CSE Routine Summer 2026 v1.json");
-var json = File.ReadAllText(jsonPath);
-var classes = JsonSerializer.Deserialize<List<Class>>(json) ?? [];
-
-// create the database 
+// Create the database for the first time
 using (var scope = app.Services.CreateScope())
 {
-    var db = scope.ServiceProvider.GetRequiredService<ClassContext>();
-    db.Database.EnsureDeleted();
+    var db = scope.ServiceProvider.GetRequiredService<ScheduleDbContext>();
     db.Database.EnsureCreated();
-    db.Classes.AddRange(classes);
-    db.SaveChanges();
+    if(!db.Classes.Any())
+    {
+        // Read the JSON source of truth and put in database 
+        var jsonPath = Path.GetFullPath("Routine/BSC in CSE Routine Summer 2026 v1.json");
+        var rawJson = File.ReadAllText(jsonPath);
+        var parsedJson = JsonSerializer.Deserialize<List<ClassScheduleSlot>>(rawJson) ?? [];
+        db.Classes.AddRange(parsedJson);
+        db.SaveChanges();
+    }
 }
 
-// app.MapGet("/", () => { return "Welcome to Project Raintree!"; });
-// For keeping the program alive via Github Workers
-app.MapGet("/uptime", () => { return "Raintree: all system's operational."; });
+// For keeping the service alive in Render
+app.MapGet("/uptime", () => { return "Raintree: all system's operational!"; });
 
 // Filter routine by batch and section
-app.MapGet("/schedule/{batch}/{section}", (int batch, char section, ClassContext db) =>
+app.MapGet("/schedule/{batch}/{section}", (int batch, char section, ScheduleDbContext db) =>
 {
     var allSchedule = db.Classes
         .Where(c => c.Batch == batch && c.Section == section)
@@ -117,8 +119,19 @@ app.MapGet("/schedule/{batch}/{section}", (int batch, char section, ClassContext
     return finalSchedule;
 }).CacheOutput();
 
+// Replace current full routine with a new one
+app.MapPost("updateall", (List<ClassScheduleSlot> routine, ScheduleDbContext db) =>
+{
+    db.Classes.RemoveRange(db.Classes);
+    db.Classes.AddRange(routine);
+    db.SaveChanges();
+    
+    return Results.Created();
+});
 
 app.MapFallbackToFile("index.html");
-// run the program in both dev and prod environment
+
+// Run the program in both dev and prod environment
 var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
 app.Run($"http://0.0.0.0:{port}");
+
