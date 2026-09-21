@@ -151,6 +151,78 @@ app.MapGet("/sections/{batch}", (int batch, ScheduleDbContext db) =>
     return Results.Ok(sections);
 });
 
+// Get available rooms for every day and time slot
+app.MapGet("/available-rooms", (ScheduleDbContext db) =>
+{
+    const int totalSlots = 6;
+
+    var dayOrder = new[]
+    {
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+    };
+
+    // Get every room that appears in the routine
+    var allRooms = db.Classes
+        .Where(c => c.Room != null && c.Room != "")
+        .Select(c => c.Room!)
+        .Distinct()
+        .OrderBy(room => room)
+        .ToList();
+
+    // Get all classes once
+    var allClasses = db.Classes.ToList();
+
+    var result = allClasses
+        .GroupBy(c => c.Day)
+        .OrderBy(group =>
+        {
+            var index = Array.IndexOf(dayOrder, group.Key);
+            return index == -1 ? int.MaxValue : index;
+        })
+        .Select(dayGroup =>
+        {
+            var slots = Enumerable.Range(1, totalSlots)
+                .Select(slotNumber =>
+                {
+                    var occupiedRooms = dayGroup
+                        .Where(c =>
+                            c.Room != null &&
+                            c.Room != "" &&
+                            c.SlotStart <= slotNumber &&
+                            c.SlotStart + c.SlotSpan > slotNumber)
+                        .Select(c => c.Room!)
+                        .Distinct()
+                        .ToHashSet();
+
+                    var availableRooms = allRooms
+                        .Where(room => !occupiedRooms.Contains(room))
+                        .ToList();
+
+                    return new
+                    {
+                        slot = slotNumber,
+                        availableRooms
+                    };
+                })
+                .ToList();
+
+            return new
+            {
+                day = dayGroup.Key,
+                slots
+            };
+        })
+        .ToList();
+
+    return Results.Ok(result);
+});
+
 // Replace entire routine
 app.MapPost("/updateall",
     (List<ClassScheduleSlot> routine, ScheduleDbContext db) =>
