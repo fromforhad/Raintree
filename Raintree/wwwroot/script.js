@@ -21,6 +21,7 @@ const batchRow = document.getElementById("batchRow");
 const sectionRow = document.getElementById("sectionRow");
 const scheduleContainer = document.getElementById("chip");
 let activeBatch, activeSection;
+let availableRooms = [];
 
 // ==============================
 // Schedule cache
@@ -70,6 +71,27 @@ async function fetchFreshSchedule() {
     saveScheduleToCache(schedule);
 
     return schedule;
+}
+
+// ==============================
+// Fetch available rooms
+// ==============================
+
+async function fetchAvailableRooms() {
+    const response = await fetch(
+        `${API_URL}/available-rooms`,
+        {
+            cache: "no-store"
+        }
+    );
+
+    if (!response.ok) {
+        throw new Error(
+            `Available rooms request failed: ${response.status}`
+        );
+    }
+
+    return await response.json();
 }
 
 // ==============================
@@ -179,10 +201,18 @@ function buildScheduleTable(schedule) {
         <table class="w-full border-collapse text-sm text-center">
             <thead>
                 <tr>
-                <th class="border border-gray-300 bg-gray-100 px-3 py-3 text-left font-semibold"> Day </th>
-                ${TIME_SLOTS.map(time => `<th class="border border-gray-300 bg-gray-100 px-3 py-3 text-center font-semibold whitespace-nowrap"> ${time} </th>`).join("")}
+                    <th class="border border-gray-300 bg-gray-100 px-3 py-3 text-left font-semibold">
+                        Day
+                    </th>
+
+                    ${TIME_SLOTS.map(time => `
+                        <th class="border border-gray-300 bg-gray-100 px-3 py-3 text-center font-semibold whitespace-nowrap">
+                            ${time}
+                        </th>
+                    `).join("")}
                 </tr>
             </thead>
+
             <tbody>
     `;
 
@@ -190,7 +220,11 @@ function buildScheduleTable(schedule) {
         tableHTML += `<tr>`;
 
         // Day
-        tableHTML += `<td class="border border-gray-300 bg-gray-50 px-3 py-3 font-semibold whitespace-nowrap text-center align-middle"> ${dayData.day} </td>`;
+        tableHTML += `
+            <td class="border border-gray-300 bg-gray-50 px-3 py-3 font-semibold whitespace-nowrap text-center align-middle">
+                ${dayData.day}
+            </td>
+        `;
 
         let currentSlot = 1;
 
@@ -201,31 +235,53 @@ function buildScheduleTable(schedule) {
                     <td class="border border-gray-300 px-3 py-3 text-center">
                     </td>
                 `;
+
                 currentSlot++;
             }
 
-            const currentClass = isCurrentClass(dayData.day, classData.time);
-            
+            const currentClass =
+                isCurrentClass(dayData.day, classData.time);
+
             // Class
             tableHTML += `
-                <td colspan="${classData.slotSpan}" class="border border-gray-300 px-3 py-3 align-middle text-center ${currentClass ? "bg-green-100" : ""}" >
-                <strong class="font-semibold text-gray-900"> ${classData.subject || "<i>Subject not specified</i>"} </strong>
-                <br>
-                <span class="text-gray-700"> ${classData.title || "<i>Title not specified</i>"} </span>
-                <br>
-                <span class="text-gray-500"> ${classData.faculty || "<i>Faculty not specified</i>"} </span>
-                <br>
-                <span class="text-gray-500"> ${classData.room || "<i>Room not specified</i>"} </span>
+                <td
+                    colspan="${classData.slotSpan}"
+                    class="border border-gray-300 px-3 py-3 align-middle text-center ${currentClass ? "bg-green-100" : ""}"
+                >
+                    <strong class="font-semibold text-gray-900">
+                        ${classData.subject || "<i>Subject not specified</i>"}
+                    </strong>
+
+                    <br>
+
+                    <span class="text-gray-700">
+                        ${classData.title || "<i>Title not specified</i>"}
+                    </span>
+
+                    <br>
+
+                    <span class="text-gray-500">
+                        ${classData.faculty || "<i>Faculty not specified</i>"}
+                    </span>
+
+                    <br>
+
+                    <span class="text-gray-500">
+                        ${classData.room || "<i>Room not specified</i>"}
+                    </span>
                 </td>
             `;
 
-            // Move to the next available slot
             currentSlot += classData.slotSpan;
         });
 
         // Empty slots after the last class
         while (currentSlot <= 6) {
-            tableHTML += `<td class="border border-gray-300 px-3 py-3 text-center"> </td>`;
+            tableHTML += `
+                <td class="border border-gray-300 px-3 py-3 text-center">
+                </td>
+            `;
+
             currentSlot++;
         }
 
@@ -237,7 +293,137 @@ function buildScheduleTable(schedule) {
         </table>
     `;
 
-    scheduleContainer.innerHTML = `<div class="overflow-x-auto rounded-lg"> ${tableHTML} </div>`;
+    scheduleContainer.innerHTML = `
+        <div class="overflow-x-auto rounded-lg">
+            ${tableHTML}
+        </div>
+    `;
+
+    // Add the room table underneath
+    buildAvailableRoomsTable();
+}
+
+// ==============================
+// Build available rooms
+// ==============================
+
+function buildAvailableRoomsTable() {
+    let desktopHTML = `
+        <div class="hidden md:block">
+            <div class="overflow-x-auto rounded-lg border border-gray-200">
+                <table class="w-full border-collapse text-sm text-center">
+                    <thead>
+                        <tr>
+                            <th class="border-b border-r border-gray-200 bg-gray-100 px-3 py-3 text-left font-semibold">
+                                Day
+                            </th>
+
+                            ${TIME_SLOTS.map(time => `
+                                <th class="border-b border-r border-gray-200 bg-gray-100 px-3 py-3 font-semibold whitespace-nowrap last:border-r-0">
+                                    ${time}
+                                </th>
+                            `).join("")}
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        ${availableRooms.map(dayData => `
+                            <tr>
+                                <td class="border-b border-r border-gray-200 bg-gray-50 px-3 py-3 font-semibold whitespace-nowrap">
+                                    ${dayData.day}
+                                </td>
+
+                                ${dayData.slots.map(slotData => {
+                                    const rooms = slotData.availableRooms || [];
+
+                                    return `
+                                        <td class="border-b border-r border-gray-200 px-3 py-3 align-top last:border-r-0">
+                                            ${rooms.length > 0 ? `<div class="flex flex-wrap justify-center gap-1">
+                                                ${rooms.map(room =>
+                                                    `<span class="rounded-md bg-gray-100 px-2 py-1 text-xs font-medium text-gray-700">
+                                                        ${room}
+                                                    </span>`).join("")}</div>` : `<span class="text-xs italic text-gray-400"> No rooms </span>`
+                                            }
+                                        </td>
+                                    `;
+                                }).join("")}
+                            </tr>
+                        `).join("")}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    `;
+
+    let mobileHTML = `
+        <div class="md:hidden space-y-6">
+            ${availableRooms.map(dayData => `
+                <section>
+                    <h3 class="mb-3 text-base font-semibold text-gray-900">
+                        ${dayData.day}
+                    </h3>
+
+                    <div class="space-y-3">
+                        ${dayData.slots.map(slotData => {
+                            const rooms = slotData.availableRooms || [];
+
+                            return `
+                                <div class="rounded-lg border border-gray-200 bg-white p-3">
+                                    <div class="mb-2 flex items-center justify-between gap-3">
+                                        <span class="text-sm font-semibold text-gray-800">
+                                            ${TIME_SLOTS[slotData.slot - 1]}
+                                        </span>
+
+                                        <span class="text-xs text-gray-500">
+                                            ${rooms.length}
+                                            ${rooms.length === 1 ? "room" : "rooms"}
+                                        </span>
+                                    </div>
+
+                                    ${
+                                        rooms.length > 0
+                                            ? `
+                                                <div class="flex flex-wrap gap-2">
+                                                    ${rooms.map(room => `
+                                                        <span class="rounded-md bg-gray-100 px-2.5 py-1.5 text-xs font-medium text-gray-700">
+                                                            ${room}
+                                                        </span>
+                                                    `).join("")}
+                                                </div>
+                                            `
+                                            : `
+                                                <p class="text-xs italic text-gray-400">
+                                                    No rooms available
+                                                </p>
+                                            `
+                                    }
+                                </div>
+                            `;
+                        }).join("")}
+                    </div>
+                </section>
+            `).join("")}
+        </div>
+    `;
+
+    const roomsSection = `
+        <div class="mt-8">
+            <div class="mb-4">
+                <h2 class="text-lg font-semibold text-gray-900">
+                    Available Rooms
+                </h2>
+
+                <p class="mt-1 text-sm text-gray-500">
+                    Rooms that are not occupied during each time slot.
+                </p>
+            </div>
+
+            ${desktopHTML}
+            ${mobileHTML}
+        </div>
+    `;
+
+    scheduleContainer.innerHTML += roomsSection;
 }
 
 // ==============================
@@ -320,6 +506,9 @@ function buildSectionButtons(sections) {
 
         activeBatch = undefined;
         activeSection = undefined;
+
+        localStorage.removeItem("selectedBatch");
+        localStorage.removeItem("selectedSection");
 
         scheduleContainer.innerHTML = "";
     });
@@ -409,54 +598,84 @@ function highlightSection(section) {
 }
 
 // ==============================
-// Get batches with page load 
+// Get batches with page load
 // ==============================
 
 async function init() {
-    const batches = await fetchBatches();
-    buildBatchButtons(batches);
-
-    const selectedRoutine = getSelectedRoutine();
-
-    if (!selectedRoutine) {
-        return;
-    }
-
-    activeBatch = selectedRoutine.batch;
-
-    const sections = await fetchSections(activeBatch);
-    buildSectionButtons(sections);
-
-    activeSection = selectedRoutine.section;
-    highlightSection(activeSection);
-
-    const cachedSchedule = getScheduleFromCache();
-
-    if (cachedSchedule) {
-        buildScheduleTable(cachedSchedule);
-    } else {
-        scheduleContainer.innerHTML = `
-            <div class="py-8 text-center text-gray-500">
-                Loading routine...
-            </div>
-        `;
-    }
-
     try {
-        const freshSchedule = await fetchFreshSchedule();
-        buildScheduleTable(freshSchedule);
+        const batches = await fetchBatches();
+
+        availableRooms = await fetchAvailableRooms();
+
+        buildBatchButtons(batches);
     } catch (error) {
         console.error(error);
 
-        if (!cachedSchedule) {
+        showError(
+            "Couldn't load the routine. Please check your connection."
+        );
+
+        return;
+    }
+
+    const selectedRoutine = getSelectedRoutine();
+
+    // No saved routine
+    if (!selectedRoutine) {
+        batchRow.classList.remove("hidden");
+        sectionRow.classList.add("hidden");
+        return;
+    }
+
+    // Restore saved batch
+    activeBatch = Number(selectedRoutine.batch);
+
+    try {
+        const sections = await fetchSections(activeBatch);
+
+        buildSectionButtons(sections);
+
+        activeSection = selectedRoutine.section;
+
+        highlightSection(activeSection);
+
+        const cachedSchedule = getScheduleFromCache();
+
+        if (cachedSchedule) {
+            buildScheduleTable(cachedSchedule);
+        } else {
+            scheduleContainer.innerHTML = `
+                <div class="py-8 text-center text-gray-500">
+                    Loading routine...
+                </div>
+            `;
+        }
+
+        const freshSchedule = await fetchFreshSchedule();
+
+        buildScheduleTable(freshSchedule);
+
+        // We restored the user's routine,
+        // so show the section selector.
+        batchRow.classList.add("hidden");
+        sectionRow.classList.remove("hidden");
+
+    } catch (error) {
+        console.error(error);
+
+        const cachedSchedule = getScheduleFromCache();
+
+        if (cachedSchedule) {
+            buildScheduleTable(cachedSchedule);
+        } else {
             showError(
                 "Couldn't load the routine. Please check your connection."
             );
         }
-    }
 
-    batchRow.classList.add("hidden");
-    sectionRow.classList.remove("hidden");
+        batchRow.classList.add("hidden");
+        sectionRow.classList.remove("hidden");
+    }
 }
 
 init();
