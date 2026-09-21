@@ -1,272 +1,482 @@
-// Run the code in web, pc, and phone - all at once
-const API_URL = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
-    ? "http://localhost:5000"
-    : (window.location.hostname.startsWith("192.168.") || window.location.hostname.startsWith("10.0."))
-        ? `http://${window.location.hostname}:5000`
-        : "https://raintree-xnlz.onrender.com";
+// ==============================
+// API URL
+// ==============================
 
-const CLASS_DURATION_MINUTES = 80;
+const hostname = window.location.hostname;
+let API_URL;
 
-// Converts "8:45" or "1:15" to minutes-since-midnight.
-// Assumes classes run 8am-4pm, so any hour < 8 must be PM (1:15 -> 13:15)
-function parseTimeToMinutes(timeStr) {
-    let [hour, minute] = timeStr.split(':').map(Number);
-    if (hour < 8) hour += 12;
-    return hour * 60 + minute;
+if (hostname === "localhost" || hostname === "127.0.0.1") {
+    API_URL = "http://localhost:5000";
+} else if (hostname.startsWith("192.168.")) {
+    API_URL = `http://${hostname}:5000`;
+} else {
+    API_URL = "https://raintree-xnlz.onrender.com";
 }
 
-// Returns the index of the currently-running slot in TIME_SLOTS, or -1 if none
-function getActiveSlotIndex() {
+// ==============================
+// DOM elements
+// ==============================
+
+const batchRow = document.getElementById("batchRow");
+const sectionRow = document.getElementById("sectionRow");
+const scheduleContainer = document.getElementById("chip");
+let activeBatch, activeSection;
+
+// ==============================
+// Schedule cache
+// ==============================
+
+function getScheduleCacheKey() {
+    return `schedule-${activeBatch}-${activeSection}`;
+}
+
+function saveScheduleToCache(schedule) {
+    const key = getScheduleCacheKey();
+
+    localStorage.setItem( key, JSON.stringify(schedule));
+}
+
+function getScheduleFromCache() {
+    const key = getScheduleCacheKey();
+    const cachedSchedule = localStorage.getItem(key);
+
+    if (!cachedSchedule) {
+        return null;
+    }
+
+    return JSON.parse(cachedSchedule);
+}
+
+// ==============================
+// Fetch fresh schedule
+// ==============================
+
+async function fetchFreshSchedule() {
+    const getApiUrl =
+        `${API_URL}/schedule/${activeBatch}/${activeSection}`;
+
+    const response = await fetch(getApiUrl, {
+        cache: "no-store"
+    });
+
+    if (!response.ok) {
+        throw new Error(
+            `Schedule request failed: ${response.status}`
+        );
+    }
+
+    const schedule = await response.json();
+
+    saveScheduleToCache(schedule);
+
+    return schedule;
+}
+
+// ==============================
+// Save routine selection
+// ==============================
+
+function saveSelectedRoutine() {
+    localStorage.setItem(
+        "selectedBatch",
+        activeBatch
+    );
+
+    localStorage.setItem(
+        "selectedSection",
+        activeSection
+    );
+}
+
+// ==============================
+// Get selected routine
+// ==============================
+
+function getSelectedRoutine() {
+    const batch = localStorage.getItem("selectedBatch");
+    const section = localStorage.getItem("selectedSection");
+
+    if (!batch || !section) {
+        return null;
+    }
+
+    return {
+        batch,
+        section
+    };
+}
+
+// ==============================
+// Fixed timeslot
+// ==============================
+
+const TIME_SLOTS = [
+    "8:45 AM",
+    "10:05 AM",
+    "11:25 AM",
+    "1:15 PM",
+    "2:35 PM",
+    "3:55 PM"
+];
+
+// ==============================
+// Error handling
+// ==============================
+
+function showError(message) {
+    scheduleContainer.innerHTML = `
+        <div class="rounded-lg border border-red-200 bg-red-50 px-4 py-4 text-center text-red-700">
+            ${message}
+        </div>
+    `;
+}
+
+// ==============================
+// Current slot highlight
+// ==============================
+
+function timeToMinutes(timeString) {
+    const [time, period] = timeString.split(" ");
+    let [hours, minutes] = time.split(":").map(Number);
+
+    if (period === "PM" && hours !== 12) {
+        hours += 12;
+    }
+
+    if (period === "AM" && hours === 12) {
+        hours = 0;
+    }
+
+    return hours * 60 + minutes;
+}
+
+function isCurrentClass(day, time) {
     const now = new Date();
-    const nowMinutes = now.getHours() * 60 + now.getMinutes();
 
-    for (let i = 0; i < TIME_SLOTS.length; i++) {
-        const start = parseTimeToMinutes(TIME_SLOTS[i]);
-        const end = start + CLASS_DURATION_MINUTES;
-        if (nowMinutes >= start && nowMinutes < end) {
-            return i;
-        }
-    }
-    return -1;
-}
-const TIME_SLOTS = ["8:45", "10:05", "11:25", "1:15", "2:35", "3:55"];
-
-// Each batch maps to its own list of sections
-const BATCH_SECTIONS = {
-    58: ["A", "B", "C"],
-    59: ["A", "B"],
-    60: ["A", "B", "C", "D", "E", "F", "G", "H"],
-    61: ["A", "B", "C", "D", "E", "F"],
-    62: ["A", "B", "C", "D"],
-    63: ["A", "B", "C"],
-    64: ["A", "B", "C", "D", "E"],
-    65: ["A", "B", "C", "D"],
-    66: ["A", "B", "C", "D"],
-    67: ["A", "B", "C", "D", "E", "F"],
-};
-const BATCHES = Object.keys(BATCH_SECTIONS).map(Number);
-// ---------------------------------------------
-
-const DAY_NAMES = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
-const batchRow = document.getElementById('batchRow');
-const sectionRow = document.getElementById('sectionRow');
-const scheduleWrap = document.getElementById('scheduleWrap');
-const scheduleMessage = document.getElementById('scheduleMessage');
-const subtitle = document.getElementById('subtitle');
-
-function init() {
-    const lastBatch = localStorage.getItem('lastBatch');
-    const lastSection = localStorage.getItem('lastSection');
-
-    renderBatches();
-
-    if (lastBatch && lastSection) {
-        batchRow.classList.add('hidden');
-        renderSections(Number(lastBatch));
-        loadSchedule(lastBatch, lastSection);
-    }
-}
-
-function renderBatches() {
-    batchRow.innerHTML = '';
-
-    // Render all your standard batch number chips
-    BATCHES.forEach(batch => {
-        const btn = document.createElement('button');
-        btn.className = 'chip';
-        btn.textContent = batch;
-        btn.onclick = () => {
-            sectionRow.classList.remove('hidden');
-            batchRow.classList.add('hidden');
-            renderSections(batch);
-            subtitle.textContent = `Select section for ${batch}`;
-        };
-        batchRow.appendChild(btn);
+    const currentDay = now.toLocaleDateString("en-US", {
+        weekday: "long"
     });
 
-    // Append the blended Refresh Button at the very end of the row
-    const refreshBtn = document.createElement('button');
-    refreshBtn.className = 'chip back'; // Reusing your 'back' chip theme color for differentiation
-    refreshBtn.title = 'Force refresh';  // Tooltip backup
-    refreshBtn.innerHTML = `<span>↻</span> <span>Refresh</span>`;
+    if (day !== currentDay) {
+        return false;
+    }
 
-    refreshBtn.onclick = () => {
-        // Clear all cached routines
-        Object.keys(localStorage)
-            .filter(key => key.startsWith('schedule_data_'))
-            .forEach(key => localStorage.removeItem(key));
+    const [startTime, endTime] = time.split(" - ");
+    const currentMinutes = now.getHours() * 60 + now.getMinutes();
 
-        // Reload to fetch fresh data
-        window.location.reload();
-    };
+    const startMinutes = timeToMinutes(startTime);
+    const endMinutes = timeToMinutes(endTime);
 
-    batchRow.appendChild(refreshBtn);
+    return currentMinutes >= startMinutes && currentMinutes < endMinutes;
 }
 
-function renderSections(batch) {
-    sectionRow.innerHTML = '';
-    sectionRow.classList.remove('hidden');
+// ==============================
+// Build schedule table
+// ==============================
 
-    const back = document.createElement('button');
-    back.className = 'chip back';
-    back.innerHTML = `<span><</span> <span>${batch}</span>`;
+function buildScheduleTable(schedule) {
+    let tableHTML = `
+        <table class="w-full border-collapse text-sm text-center">
+            <thead>
+                <tr>
+                <th class="border border-gray-300 bg-gray-100 px-3 py-3 text-left font-semibold"> Day </th>
+                ${TIME_SLOTS.map(time => `<th class="border border-gray-300 bg-gray-100 px-3 py-3 text-center font-semibold whitespace-nowrap"> ${time} </th>`).join("")}
+                </tr>
+            </thead>
+            <tbody>
+    `;
 
-    back.onclick = () => {
-        batchRow.classList.remove('hidden');
-        sectionRow.classList.add('hidden');
-        subtitle.textContent = 'Select your batch';
-    };
+    schedule.forEach(dayData => {
+        tableHTML += `<tr>`;
 
-    sectionRow.appendChild(back);
+        // Day
+        tableHTML += `<td class="border border-gray-300 bg-gray-50 px-3 py-3 font-semibold whitespace-nowrap text-center align-middle"> ${dayData.day} </td>`;
 
-    const sections = BATCH_SECTIONS[batch] || [];
+        let currentSlot = 1;
 
+        dayData.classes.forEach(classData => {
+            // Empty slots before this class
+            while (currentSlot < classData.slotStart) {
+                tableHTML += `
+                    <td class="border border-gray-300 px-3 py-3 text-center">
+                    </td>
+                `;
+                currentSlot++;
+            }
+
+            const currentClass = isCurrentClass(dayData.day, classData.time);
+            
+            // Class
+            tableHTML += `
+                <td colspan="${classData.slotSpan}" class="border border-gray-300 px-3 py-3 align-middle text-center ${currentClass ? "bg-green-100" : ""}" >
+                <strong class="font-semibold text-gray-900"> ${classData.subject || "<i>Subject not specified</i>"} </strong>
+                <br>
+                <span class="text-gray-700"> ${classData.title || "<i>Title not specified</i>"} </span>
+                <br>
+                <span class="text-gray-500"> ${classData.faculty || "<i>Faculty not specified</i>"} </span>
+                <br>
+                <span class="text-gray-500"> ${classData.room || "<i>Room not specified</i>"} </span>
+                </td>
+            `;
+
+            // Move to the next available slot
+            currentSlot += classData.slotSpan;
+        });
+
+        // Empty slots after the last class
+        while (currentSlot <= 6) {
+            tableHTML += `<td class="border border-gray-300 px-3 py-3 text-center"> </td>`;
+            currentSlot++;
+        }
+
+        tableHTML += `</tr>`;
+    });
+
+    tableHTML += `
+            </tbody>
+        </table>
+    `;
+
+    scheduleContainer.innerHTML = `<div class="overflow-x-auto rounded-lg"> ${tableHTML} </div>`;
+}
+
+// ==============================
+// Fetch available batches
+// ==============================
+
+async function fetchBatches() {
+    const response = await fetch(`${API_URL}/batches`);
+
+    if (!response.ok) {
+        throw new Error(`Batch request failed: ${response.status}`);
+    }
+
+    const batches = await response.json();
+
+    return batches;
+}
+
+// ==============================
+// Fetch available sections
+// ==============================
+
+async function fetchSections(batch) {
+    const response = await fetch(`${API_URL}/sections/${batch}`);
+
+    if (!response.ok) {
+        throw new Error(`Section request failed: ${response.status}`);
+    }
+
+    const sections = await response.json();
+    return sections;
+}
+
+// ==============================
+// Build batch buttons
+// ==============================
+
+function buildBatchButtons(batches) {
+    batchRow.innerHTML = "";
+
+    batches.forEach(batch => {
+        const button = document.createElement("button");
+
+        button.className = "rounded-lg border border-gray-300 bg-white px-4 py-2 font-medium text-gray-700 shadow-sm hover:bg-gray-100";
+        button.dataset.batch = batch;
+        button.textContent = batch;
+
+        button.addEventListener("click", async () => {
+            activeBatch = batch;
+
+            const sections = await fetchSections(activeBatch);
+
+            buildSectionButtons(sections);
+
+            batchRow.classList.add("hidden");
+            sectionRow.classList.remove("hidden");
+        });
+
+        batchRow.appendChild(button);
+    });
+}
+
+// ==============================
+// Build section buttons
+// ==============================
+
+function buildSectionButtons(sections) {
+    sectionRow.innerHTML = "";
+
+    // Change batch button
+    const changeButton = document.createElement("button");
+
+    changeButton.className = "rounded-lg border border-gray-300 bg-white px-4 py-2 font-medium text-gray-700 shadow-sm hover:bg-gray-100";    changeButton.textContent = `< ${activeBatch}`;
+
+    changeButton.addEventListener("click", () => {
+        batchRow.classList.remove("hidden");
+        sectionRow.classList.add("hidden");
+
+        sectionRow.innerHTML = "";
+
+        activeBatch = undefined;
+        activeSection = undefined;
+
+        scheduleContainer.innerHTML = "";
+    });
+
+    sectionRow.appendChild(changeButton);
+
+    // Section buttons
     sections.forEach(section => {
-        const btn = document.createElement('button');
-        btn.className = 'chip';
-        btn.textContent = section;
-        btn.onclick = () => {
-            [...sectionRow.querySelectorAll('.chip')].forEach(c => {
-                if (!c.classList.contains('back')) c.classList.remove('selected');
+        const button = document.createElement("button");
+        const normalSectionClasses = "bg-white text-gray-700";
+        const selectedSectionClasses = "bg-gray-900 text-white";
+
+        button.className = "section-button rounded-lg border border-gray-300 bg-white px-4 py-2 font-medium text-gray-700 shadow-sm hover:bg-gray-100";
+        button.dataset.section = section;
+        button.textContent = section;
+
+        button.addEventListener("click", async () => {
+            activeSection = section;
+            saveSelectedRoutine();
+            highlightSection(section);
+            
+            document.querySelectorAll(".section-button").forEach(button => {
+                button.classList.remove("bg-gray-900", "text-white");
+                button.classList.add("bg-white", "text-gray-700");
             });
-            btn.classList.add('selected');
-            loadSchedule(batch, section);
-        };
 
-        // restore selected state if this matches the last viewed section
-        if (String(batch) === localStorage.getItem('lastBatch') && section === localStorage.getItem('lastSection')) {
-            btn.classList.add('selected');
-        }
+            button.classList.remove("bg-white", "text-gray-700");
+            button.classList.add("bg-gray-900", "text-white");
+            
+            const cachedSchedule = getScheduleFromCache();
 
-        sectionRow.appendChild(btn);
+            if (cachedSchedule) {
+                buildScheduleTable(cachedSchedule);
+            } else {
+                scheduleContainer.innerHTML = `<div class="py-8 text-center text-gray-500"> Loading routine... </div>`;
+            }
+
+            try {
+                const freshSchedule = await fetchFreshSchedule();
+
+                buildScheduleTable(freshSchedule);
+            } catch (error) {
+                console.error(error);
+
+                if (!cachedSchedule) {
+                    showError("Couldn't load the routine. Please check your connection.");
+                }
+            }
+        });
+        sectionRow.appendChild(button);
     });
 }
 
-function loadSchedule(batch, section) {
-    localStorage.setItem('lastBatch', batch);
-    localStorage.setItem('lastSection', section);
+// ==============================
+// Restore highlight on reload
+// ==============================
 
-    subtitle.textContent = `Batch ${batch} — Section ${section}`;
-    scheduleWrap.innerHTML = '';
-    scheduleMessage.textContent = 'Loading schedule...';
-    scheduleWrap.appendChild(scheduleMessage);
+function highlightSection(section) {
+    document.querySelectorAll(".section-button").forEach(button => {
+        button.classList.remove(
+            "bg-gray-900",
+            "text-white"
+        );
 
-    const cacheKey = `schedule_data_${batch}_${section}`;
-    const cachedData = localStorage.getItem(cacheKey);
+        button.classList.add(
+            "bg-white",
+            "text-gray-700"
+        );
+    });
 
-    // 1. PRIORITIZE CACHE FIRST (Essential for offline PWA standalone launches)
-    if (cachedData) {
-        console.log(`Serving schedule for ${batch}-${section} from frontend cache.`);
-        scheduleWrap.innerHTML = buildScheduleTable(JSON.parse(cachedData));
+    const selectedButton =
+        document.querySelector(
+            `.section-button[data-section="${section}"]`
+        );
 
-        // If the student has data/Wi-Fi, silently look for updates in the background!
-        if (navigator.onLine) {
-            fetchSilentUpdate(batch, section, cacheKey);
-        }
+    if (selectedButton) {
+        selectedButton.classList.remove(
+            "bg-white",
+            "text-gray-700"
+        );
+
+        selectedButton.classList.add(
+            "bg-gray-900",
+            "text-white"
+        );
+    }
+}
+
+// ==============================
+// Get batches with page load 
+// ==============================
+
+async function init() {
+    const batches = await fetchBatches();
+    buildBatchButtons(batches);
+
+    const selectedRoutine = getSelectedRoutine();
+
+    if (!selectedRoutine) {
         return;
     }
 
-    // 2. FALLBACK TO NETWORK (Only if this routine has never been opened before)
-    fetchFromNetwork(batch, section, cacheKey);
-}
+    activeBatch = selectedRoutine.batch;
 
-// Separate helper to pull clean data from the server and commit it to storage
-function fetchFromNetwork(batch, section, cacheKey) {
-    fetch(`${API_URL}/schedule/${batch}/${section}`)
-        .then(response => {
-            if (!response.ok) throw new Error('Network response was not ok');
-            return response.json();
-        })
-        .then(data => {
-            // Save it to localStorage so it works offline going forward!
-            localStorage.setItem(cacheKey, JSON.stringify(data));
-            scheduleWrap.innerHTML = buildScheduleTable(data);
-        })
-        .catch(err => {
-            scheduleWrap.innerHTML = '';
-            scheduleMessage.textContent = 'Could not load schedule. Check your connection and try again.';
-            scheduleWrap.appendChild(scheduleMessage);
-            console.error(err);
-        });
-}
+    const sections = await fetchSections(activeBatch);
+    buildSectionButtons(sections);
 
-// Background worker to check if room numbers/classes changed while online
-function fetchSilentUpdate(batch, section, cacheKey) {
-    fetch(`${API_URL}/schedule/${batch}/${section}`)
-        .then(response => {
-            if (response.ok) return response.json();
-        })
-        .then(data => {
-            if (data) {
-                localStorage.setItem(cacheKey, JSON.stringify(data));
-                // Silently refresh the visual grid without flash interruptions
-                scheduleWrap.innerHTML = buildScheduleTable(data);
-            }
-        })
-        .catch(() => console.log("Silent update skipped (offline mode)."));
-}
+    activeSection = selectedRoutine.section;
+    highlightSection(activeSection);
 
-function buildScheduleTable(data) {
-    const today = DAY_NAMES[new Date().getDay()];
-    const activeSlotIndex = getActiveSlotIndex();
+    const cachedSchedule = getScheduleFromCache();
 
-    let html = '<table><thead><tr><th>Day</th>';
-    TIME_SLOTS.forEach(slot => html += `<th>${slot}</th>`);
-    html += '</tr></thead><tbody>';
-
-    data.forEach(daySchedule => {
-        const isToday = daySchedule.day === today;
-        const rowClass = isToday ? ' class="today"' : '';
-        html += `<tr${rowClass}><th>${daySchedule.day.slice(0, 3)}</th>`;
-
-        if (daySchedule.isOffDay) {
-            html += `<td colspan="${TIME_SLOTS.length}" class="off-day">No classes today 🎉</td>`;
-        } else {
-            TIME_SLOTS.forEach((slot, i) => {
-                const isActive = isToday && i === activeSlotIndex;
-                const activeClass = isActive ? ' active-class' : '';
-                const item = daySchedule.classes.find(c => c.time === slot);
-
-                if (item && item.subject) {
-                    html += `<td class="${activeClass.trim()}">
-            <div class="class-cell">
-            <span class="class-subject">${item.title || item.subject}</span>
-            <span class="class-room">${item.room || ''}</span>
-            <span class="class-faculty">${item.faculty || ''}</span>
+    if (cachedSchedule) {
+        buildScheduleTable(cachedSchedule);
+    } else {
+        scheduleContainer.innerHTML = `
+            <div class="py-8 text-center text-gray-500">
+                Loading routine...
             </div>
-            </td>`;
-                } else {
-                    html += `<td class="empty-slot${activeClass}">—</td>`;
-                }
-            });
+        `;
+    }
+
+    try {
+        const freshSchedule = await fetchFreshSchedule();
+        buildScheduleTable(freshSchedule);
+    } catch (error) {
+        console.error(error);
+
+        if (!cachedSchedule) {
+            showError(
+                "Couldn't load the routine. Please check your connection."
+            );
         }
+    }
 
-        html += '</tr>';
-    });
-
-    html += '</tbody></table>';
-    return html;
+    batchRow.classList.add("hidden");
+    sectionRow.classList.remove("hidden");
 }
 
 init();
 
-// Service worker to install as PWA
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js')
-            .then(reg => {
-                console.log('Service Worker registered successfully!', reg.scope);
-            })
-            .catch(err => console.error('Service Worker registration failed:', err));
-    });
+// ==============================
+// Slot refresh every 5 mins
+// ==============================
 
-    // Reload the page once the new service worker officially takes over
-    let refreshing = false;
-    navigator.serviceWorker.addEventListener('controllerchange', () => {
-        if (!refreshing) {
-            refreshing = true;
-            window.location.reload();
-        }
-    });
+setInterval(() => {
+    if (activeSection) {
+        fetchFreshSchedule()
+            .then(schedule => buildScheduleTable(schedule))
+            .catch(error => console.error(error));
+    }
+}, 300 * 1000);
+
+// ==============================
+// Service worker registration
+// ==============================
+
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/service-worker.js");
 }

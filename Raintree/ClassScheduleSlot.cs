@@ -11,4 +11,6 @@ public record ClassScheduleSlot
     public string? Title { get; init; }
     public string? Room { get; init; }
     public string? Faculty { get; init; }
+    public int? SlotStart { get; init; }
+    public int? SlotSpan { get; init; }
 }

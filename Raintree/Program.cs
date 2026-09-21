@@ -1,16 +1,19 @@
-using System.Data.Common;
-using System.Text.Json;
 using System.Threading.RateLimiting;
-using ClassData;
+using Raintree.ClassData;
 using Raintree.Models.Daily;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("Routine") ?? "Data Source=Routine.db";
+
+var connectionString =
+    builder.Configuration.GetConnectionString("Routine")
+    ?? "Data Source=Routine.db";
+
 builder.Services.AddSqlite<ScheduleDbContext>(connectionString);
 
-// Enable swagger environment
+// Swagger
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddEndpointsApiExplorer();
+
 builder.Services.AddOpenApiDocument(config =>
 {
     config.DocumentName = "Raintree";
@@ -21,55 +24,66 @@ builder.Services.AddOpenApiDocument(config =>
 // Rate limiting
 builder.Services.AddRateLimiter(options =>
 {
-    options.GlobalLimiter = PartitionedRateLimiter.Create<HttpContext, string>(context =>
-    {
-        var ip = context.Connection.RemoteIpAddress?.ToString() ?? "unknown";
-        return RateLimitPartition.GetFixedWindowLimiter(ip, _ => new FixedWindowRateLimiterOptions
+    options.GlobalLimiter =
+        PartitionedRateLimiter.Create<HttpContext, string>(context =>
         {
-            Window = TimeSpan.FromMinutes(1),
-            PermitLimit = 100,
-            QueueLimit = 0
-        });
-    });
+            var ip =
+                context.Connection.RemoteIpAddress?.ToString()
+                ?? "unknown";
 
-    options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
+            return RateLimitPartition.GetFixedWindowLimiter(
+                ip,
+                _ => new FixedWindowRateLimiterOptions
+                {
+                    Window = TimeSpan.FromMinutes(1),
+                    PermitLimit = 100,
+                    QueueLimit = 0
+                });
+        });
+
+    options.RejectionStatusCode =
+        StatusCodes.Status429TooManyRequests;
 });
 
-// Enable CORS for only production and development environment 
+// CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("FrontendPolicy", policy =>
     {
-        policy.AllowAnyMethod()
+        policy
+            .AllowAnyMethod()
             .AllowAnyHeader()
             .SetIsOriginAllowed(origin =>
             {
-                if (origin == "https://raintree-xnlz.onrender.com") return true;
-                if (origin.StartsWith("http://localhost") || origin.StartsWith("http://127.0.0.1")) return true;
-                if (origin.StartsWith("http://192.168.") || origin.StartsWith("http://10.0.")) return true;
+                if (origin == "https://raintree-xnlz.onrender.com")
+                    return true;
+
+                if (origin.StartsWith("http://localhost"))
+                    return true;
+
+                if (origin.StartsWith("http://127.0.0.1"))
+                    return true;
+
+                if (origin.StartsWith("http://192.168."))
+                    return true;
+
                 return false;
             });
     });
 });
 
-// Add output caching services
-builder.Services.AddOutputCache(options =>
-{
-    options.AddBasePolicy(builder => builder.Expire(TimeSpan.FromHours(12)));
-});
-
-// Builds the app
 var app = builder.Build();
 
 app.UseCors("FrontendPolicy");
 app.UseRateLimiter();
-app.UseOutputCache();
+
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
 if (app.Environment.IsDevelopment())
 {
     app.UseOpenApi();
+
     app.UseSwaggerUi(config =>
     {
         config.DocumentTitle = "Raintree";
@@ -79,33 +93,29 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-// Create the database for the first time
+// Make sure database exists
 using (var scope = app.Services.CreateScope())
 {
-    var db = scope.ServiceProvider.GetRequiredService<ScheduleDbContext>();
+    var db = scope.ServiceProvider
+        .GetRequiredService<ScheduleDbContext>();
+
     db.Database.EnsureCreated();
-    if(!db.Classes.Any())
-    {
-        // Read the JSON source of truth and put in database 
-        var jsonPath = Path.GetFullPath("Routine/BSC in CSE Routine Summer 2026 v1.json");
-        var rawJson = File.ReadAllText(jsonPath);
-        var parsedJson = JsonSerializer.Deserialize<List<ClassScheduleSlot>>(rawJson) ?? [];
-        db.Classes.AddRange(parsedJson);
-        db.SaveChanges();
-    }
 }
 
-// For keeping the service alive in Render
-app.MapGet("/uptime", () => { return "Raintree: all system's operational!"; });
+// Keep Render service alive
+app.MapGet("/uptime", () =>
+{
+    return "Raintree: all system's operational!\n";
+});
 
-// Filter routine by batch and section
-app.MapGet("/schedule/{batch}/{section}", (int batch, char section, ScheduleDbContext db) =>
+// Get routine
+app.MapGet("/schedule/{batch}/{section}",
+    (int batch, char section, ScheduleDbContext db) =>
 {
     var allSchedule = db.Classes
         .Where(c => c.Batch == batch && c.Section == section)
         .ToList();
 
-    // Group by day and check if each day is an off day
     var finalSchedule = allSchedule
         .GroupBy(c => c.Day)
         .Select(dayGroup => new
@@ -117,21 +127,51 @@ app.MapGet("/schedule/{batch}/{section}", (int batch, char section, ScheduleDbCo
         .ToList();
 
     return finalSchedule;
-}).CacheOutput();
+});
 
-// Replace current full routine with a new one
-app.MapPost("updateall", (List<ClassScheduleSlot> routine, ScheduleDbContext db) =>
+// Get batches
+app.MapGet("/batches", (ScheduleDbContext db) =>
 {
+    var batches = db.Classes
+        .Select(c => c.Batch)
+        .Distinct()
+        .OrderBy(batch => batch)
+        .ToList();
+
+    return Results.Ok(batches);
+});
+
+// Get sections
+app.MapGet("/sections/{batch}", (int batch, ScheduleDbContext db) =>
+{
+    var sections = db.Classes
+        .Where(c => c.Batch == batch)
+        .Select(c => c.Section)
+        .Distinct()
+        .OrderBy(section => section)
+        .ToList();
+
+    return Results.Ok(sections);
+});
+
+// Replace entire routine
+app.MapPost("/updateall",
+    (List<ClassScheduleSlot> routine, ScheduleDbContext db) =>
+{
+    if (routine.Count == 0)
+    {
+        return Results.BadRequest("Error: Routine can't be empty!");
+    }
+
     db.Classes.RemoveRange(db.Classes);
     db.Classes.AddRange(routine);
     db.SaveChanges();
-    
+
     return Results.Created();
 });
 
 app.MapFallbackToFile("index.html");
 
-// Run the program in both dev and prod environment
 var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
-app.Run($"http://0.0.0.0:{port}");
 
+app.Run($"http://0.0.0.0:{port}");
