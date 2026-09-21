@@ -4,45 +4,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#415f91">
-  <title>Raintree - A Routine Scraper for Uttara University</title>
-  <link rel="icon" type="image/x-icon" href="./Assets/Icons/favicon.ico">
-  <link rel="icon" type="image/png" sizes="192x192" href="./Assets/Icons/leaf192.png">
-  <link rel="icon" type="image/png" sizes="512x512" href="./Assets/Icons/leaf512.png">
-  <link rel="apple-touch-icon" href="./Assets/Icons/leaf192.png">
-  <link rel="manifest" href="./manifest.json">
-  <link rel="stylesheet" href="./style.css">
-  <script src="./script.js" defer></script>
+  <meta name="theme-color" content="#111827">
+  <title>Raintree ~ A Routine Scraper for Uttara University</title>
+  <link rel="icon" type="image/x-icon" href="./icons/favicon.ico">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="src/output.css">
+  <script src="script.js" defer></script>
 </head>
 
-<body>
+<body class="flex min-h-screen flex-col bg-white text-gray-900">
 
-  <header>
-    <h1>Raintree</h1>
-    <p>A personalized class routine for Uttara University (without the giant PDF)</p><br>
-    <div class="subtitle" id="subtitle">Select your batch</div>
+  <!-- header -->
+  <header class="border-b border-gray-200 bg-white">
+    <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+      <div class="flex items-center gap-3">
+        <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-gray-900 text-lg"> 🍁 </div>
+        <div>
+          <h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl"> Raintree </h1>
+          <p class="text-sm text-gray-500"> Uttara University · CSE Class Routine </p>
+        </div>
+      </div>
+    </div>
   </header>
 
-  <!-- The routine table -->
-  <div class="chip-row" id="batchRow" title="Force refresh"></div>
-  <div class="chip-row hidden" id="sectionRow"></div>
+  <!-- user selection and displaying schedule -->
+  <main class="mx-auto w-full max-w-7xl flex-1 px-4 py-8 sm:px-6 lg:px-8">
 
-  <div class="schedule-wrap" id="scheduleWrap">
-    <div class="message" id="scheduleMessage">Select a batch and section to display the routine</div>
-  </div><br>
-
-  <!-- View original routine block-->
-  <div class="schedule-wrap callout-flex">
-    <span class="schedule-icon">📄</span>
-    <div class="class-cell">
-      <span class="subtitle callout-text-reset">View original routine</span>
-      <a href="https://drive.google.com/file/d/1QICMnlpMJQlN5Qy9IwJ3WPIeAlgwMAdD/view?usp=sharing" target="_blank"
-        rel="noopener noreferrer" class="callout-link">
-        Batch-Wise BSc in CSE Day Class Routine Summer 26-1-1.pdf
-      </a>
+    <div class="mb-6">
+      <div id="batchRow" class="flex flex-wrap gap-2"></div>
+      <div id="sectionRow" class="hidden flex flex-wrap gap-2"></div>
     </div>
-  </div>
-  <footer><a href="https://tally.so/r/Bz6joR" target="_blank" rel="noopener noreferrer">Contact</a> | v1.2</footer>
+
+    <div id="chip"></div>
+
+    <!-- original routine -->
+    <div class="flex items-center gap-3 rounded-lg border border-gray-300 bg-gray-50 px-4 py-3 mt-6">
+      <span class="text-xl">📄</span>
+      <div class="min-w-0">
+
+        <div class="text-sm font-semibold text-gray-800">
+          View original routine
+        </div>
+
+        <a href="https://drive.google.com/file/d/1QICMnlpMJQlN5Qy9IwJ3WPIeAlgwMAdD/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="break-words text-sm text-blue-600 hover:underline" > 
+          Batch-Wise BSc in CSE Day Class Routine Summer 26-1-1.pdf 
+        </a>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!-- footer -->
+  <footer class="mt-12 border-t border-gray-200 bg-gray-50">
+    <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+
+        <div>
+          <p class="font-semibold text-gray-800"> Raintree </p>
+          <p class="mt-1 text-sm text-gray-500"> CSE class routine for Uttara University. </p>
+        </div>
+
+        <div class="text-sm text-gray-500 sm:text-right">
+          <p>Routine data sourced from the official documents. </p>
+          <p class="mt-1"> An experimental project by @fromforhad. </p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
 
 </body>
 

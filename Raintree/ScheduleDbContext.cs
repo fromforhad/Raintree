@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Raintree.Models.Daily;
 
-namespace ClassData;
+namespace Raintree.ClassData;
 
 public class ScheduleDbContext : DbContext
 {
