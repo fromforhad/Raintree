@@ -407,7 +407,7 @@ function buildAvailableRoomsTable() {
     `;
 
     const roomsSection = `
-        <div class="mt-8">
+        <div class="mt-6 pt-4 border-t border-gray-200">
             <div class="mb-4">
                 <h2 class="text-lg font-semibold text-gray-900">
                     Available Rooms
