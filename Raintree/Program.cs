@@ -169,16 +169,20 @@ app.MapPost("/updateall",
 
 app.MapGet("/debug-db", (ScheduleDbContext db) =>
 {
-    var connection = db.Database.GetDbConnection();
+    var dbPath = Path.Combine(
+        Directory.GetCurrentDirectory(),
+        "Routine.db"
+    );
 
     return Results.Ok(new
     {
-        connectionString = connection.ConnectionString,
         currentDirectory = Directory.GetCurrentDirectory(),
         appDirectory = AppContext.BaseDirectory,
-        databaseExists = File.Exists(
-            Path.Combine(Directory.GetCurrentDirectory(), "Routine.db")
-        ),
+        databasePath = dbPath,
+        databaseExists = File.Exists(dbPath),
+        databaseSize = File.Exists(dbPath)
+            ? new FileInfo(dbPath).Length
+            : 0,
         classCount = db.Classes.Count()
     });
 });
