@@ -4,10 +4,7 @@ using Raintree.Models.Daily;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionString =
-    builder.Configuration.GetConnectionString("Routine")
-    ?? "Data Source=Routine.db";
-
+var connectionString = builder.Configuration.GetConnectionString("Routine") ?? "Data Source=Routine.db";
 builder.Services.AddSqlite<ScheduleDbContext>(connectionString);
 
 // Swagger
@@ -168,6 +165,22 @@ app.MapPost("/updateall",
     db.SaveChanges();
 
     return Results.Created();
+});
+
+app.MapGet("/debug-db", (ScheduleDbContext db) =>
+{
+    var connection = db.Database.GetDbConnection();
+
+    return Results.Ok(new
+    {
+        connectionString = connection.ConnectionString,
+        currentDirectory = Directory.GetCurrentDirectory(),
+        appDirectory = AppContext.BaseDirectory,
+        databaseExists = File.Exists(
+            Path.Combine(Directory.GetCurrentDirectory(), "Routine.db")
+        ),
+        classCount = db.Classes.Count()
+    });
 });
 
 app.MapFallbackToFile("index.html");
