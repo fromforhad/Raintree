@@ -7,6 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("Routine") ?? "Data Source=Routine.db";
 builder.Services.AddSqlite<ScheduleDbContext>(connectionString);
 
+var updateToken = builder.Configuration["UPDATE_TOKEN"];
+
 // Swagger
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddEndpointsApiExplorer();
@@ -225,8 +227,19 @@ app.MapGet("/available-rooms", (ScheduleDbContext db) =>
 
 // Replace entire routine
 app.MapPost("/updateall",
-    (List<ClassScheduleSlot> routine, ScheduleDbContext db) =>
+    (HttpRequest request,
+    List<ClassScheduleSlot> routine,
+    ScheduleDbContext db,
+    IConfiguration config) =>
 {
+    var expectedToken = config["UPDATE_TOKEN"];
+    var authHeader = request.Headers.Authorization.ToString();
+
+    if (authHeader != $"Bearer {expectedToken}")
+    {
+        return Results.Unauthorized();
+    }
+
     if (routine.Count == 0)
     {
         return Results.BadRequest("Error: Routine can't be empty!");
