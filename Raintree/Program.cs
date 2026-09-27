@@ -1,11 +1,12 @@
+using Microsoft.EntityFrameworkCore;
 using System.Threading.RateLimiting;
 using Raintree.ClassData;
 using Raintree.Models.Daily;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionString = builder.Configuration.GetConnectionString("Routine") ?? "Data Source=Routine.db";
-builder.Services.AddSqlite<ScheduleDbContext>(connectionString);
+var connectionString = builder.Configuration.GetConnectionString("Routine");
+builder.Services.AddNpgsql<ScheduleDbContext>(connectionString);
 
 var updateToken = builder.Configuration["UPDATE_TOKEN"];
 
@@ -90,15 +91,6 @@ if (app.Environment.IsDevelopment())
         config.DocumentPath = "/swagger/{documentName}/swagger.json";
         config.DocExpansion = "list";
     });
-}
-
-// Make sure database exists
-using (var scope = app.Services.CreateScope())
-{
-    var db = scope.ServiceProvider
-        .GetRequiredService<ScheduleDbContext>();
-
-    db.Database.EnsureCreated();
 }
 
 // Keep Render service alive
